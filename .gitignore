@@ -13,3 +13,6 @@ docs/seo-*.html
 /secrets/
 *.secret
 *.key.txt
+# 本機報告與文件（含費用、分析，不進 Public repo）
+/docs/*.html
+/docs/*.docx
