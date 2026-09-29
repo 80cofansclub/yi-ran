@@ -212,7 +212,7 @@ ${$s.html(bodyOpen)}
 <main id="main" class="site-main clr" role="main">
 {{main}}
 </main>
-{{> footer}}
+{{footer}}
 </div>
 </div>
 ${afterWrap.map((_, e) => $s.html(e)).get().join('\n')}
@@ -284,6 +284,8 @@ ${afterWrap.map((_, e) => $s.html(e)).get().join('\n')}
       path: decodeURIComponent(urlPath),
       title: p.title.rendered,
       header: $('[data-elementor-type=header]').attr('data-elementor-id') === '1169' ? 'post' : 'page',
+      // 原站「聯絡我們」頁沒有頁尾（Elementor 頁尾顯示條件排除），照原樣保留
+      footer: $('[data-elementor-type=footer]').length ? undefined : false,
       popup: $('[data-elementor-type=popup]').length > 0,
       bodyClass: $('body').attr('class'),
       assets: profileOf(urlPath),

@@ -97,7 +97,7 @@ function pagedSeo(seo = {}, fallbackTitle, page, total) {
 }
 
 // ---------- 版面組裝 ----------
-function renderPage({ urlPath, seo, title, bodyClass, header = 'page', popup = false, main, assets = 'home' }) {
+function renderPage({ urlPath, seo, title, bodyClass, header = 'page', popup = false, footer = true, main, assets = 'home' }) {
   return fill(tpl('layout'), {
     headAssets: assetsHtml(assets, 'head'),
     footScripts: assetsHtml(assets, 'foot'),
@@ -105,6 +105,7 @@ function renderPage({ urlPath, seo, title, bodyClass, header = 'page', popup = f
     bodyClass: esc(bodyClass || ''),
     header: tpl(header === 'post' ? 'header-post' : 'header-page'),
     popup: popup ? tpl('popup') : '',
+    footer: footer === false ? '' : tpl('footer'),
     main: expandPostMarkers(main),
   }).replace(/(<form[^>]*class="mobile-searchform"[^>]*action=")\/(")/, '$1/search/$2')
     .replace(/<script>\(function\(w,d,s,l,i\)\{[\s\S]*?\}\)\(window,document,'script','dataLayer','GTM-[A-Z0-9]+'\);<\/script>/, m => gtmScript(m))
@@ -208,7 +209,7 @@ async function build() {
           .replace(/data-page="\d+" data-max-page="\d+" data-next-page="[^"]*"/, '');
       }
       const seo = page === 1 ? p.seo : pagedSeo(p.seo, p.title, page, total);
-      await out(urlPath, renderPage({ urlPath, seo, title: p.title, bodyClass: p.bodyClass, header: p.header, popup: p.popup, assets: p.assets, main }));
+      await out(urlPath, renderPage({ urlPath, seo, title: p.title, bodyClass: p.bodyClass, header: p.header, popup: p.popup, footer: p.footer, assets: p.assets, main }));
     }
     if (!p.noindex && p.sitemap !== false) sitemap.page.push({ loc: p.path, lastmod: p.sitemapLastmod || gmt(p), order: p.path === '/' ? '' : gmt(p), rawImages: p.sitemapImages, images: imagesIn(content) });
   }

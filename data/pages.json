@@ -738,6 +738,7 @@
     "path": "/contact/",
     "title": "聯絡我們",
     "header": "page",
+    "footer": false,
     "popup": true,
     "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-26 wp-custom-logo wp-embed-responsive wp-theme-oceanwp oceanwp-theme sidebar-mobile default-breakpoint content-full-width content-max-width page-header-disabled has-breadcrumbs elementor-default elementor-template-full-width elementor-kit-2354 elementor-page elementor-page-26",
     "assets": "contact",

@@ -18,3 +18,11 @@
    原站 .phone/.messenger 沒有設 z-index，輪播圖切換或進場動畫時會被蓋住（原站既有問題）。
    9000：高於頁面內容與固定選單，但低於 Elementor 彈出視窗（9999）與燈箱，彈窗開啟時不會蓋住彈窗。 */
 img.phone, img.messenger, #scroll-top { z-index: 9000; }
+
+/* 營業時間排版（聯絡我們頁、頁尾）。
+   原站用透明文字＋一串 &nbsp; 讓「週六」對齊「週一」，欄位變窄就把「週」「六」拆成兩行（原站既有問題）。
+   改為兩欄 grid：星期欄自動取最寬的那一行，時間完全對齊；星期與時間都不斷行；
+   「營業時間：」旁邊放不下時，整個時間表換到下一行（各種螢幕寬度同一套規則）。 */
+.site-hours { display: inline-grid; grid-template-columns: auto auto; column-gap: .5em; vertical-align: top; }
+.site-hours .site-hours-row { display: contents; }
+.site-hours-day, .site-hours-time { white-space: nowrap; }

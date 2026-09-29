@@ -122,6 +122,7 @@ docs/form-apps-script.gs           預約表單接收（Google 試算表 + Email
   4. 文章日期不連到日期彙整頁（原站那是 404）
   5. 特色圖片／列表縮圖不加 `loading="lazy"` 的情況比原站多（見問題紀錄 #13）
   6. 右下角浮動按鈕（電話、Messenger、回到頂端）`z-index: 9000`，永遠在最上層（見問題紀錄 #29）
+  7. 營業時間改用 grid 排版；頁尾的「週六」併入營業時間項目，拿掉原本撐位置用的箭頭圖示（見問題紀錄 #30）
 - 這個 repo 的 git 身分：`80cofansclub <27292529+80cofansclub@users.noreply.github.com>`（repo 設定，不要用公司信箱）。
 - commit 訊息用繁體中文。
 
@@ -270,6 +271,26 @@ docs/form-apps-script.gs           預約表單接收（Google 試算表 + Email
 - **解法**：`src/assets/site.css` 加 `img.phone, img.messenger, #scroll-top { z-index: 9000; }`。
   9000 高於頁面內容，但低於 Elementor 彈出視窗（9999），彈窗開啟時不會被按鈕蓋住。
 - **驗證方式**：動畫與輪播的覆蓋是瞬間發生，用 `elementFromPoint` 靜態量測量不到；改為插入 `position:fixed; z-index:1; transform` 的模擬圖層，確認按鈕仍在最上層。
+
+### #30 營業時間在電腦版斷行錯亂（原站既有問題）
+- **症狀**：電腦版「聯絡我們」頁與頁尾，「週六」被拆成「週」「六」兩行、中間大段空白；原站在 1440px 時頁尾營業時間佔 4 行。手機版正常。
+- **原因**：原站用透明文字（`color:#D9D3C100` 的「營業時間：」）＋一串 `&nbsp;` 讓週六對齊週一；欄位窄＋字距寬時，這串空白被斷行。
+- **解法**：內容改成 `<span class="site-hours">` 內含兩個 `.site-hours-row`（星期、時間），CSS 用兩欄 `inline-grid`（`src/assets/site.css`），
+  星期欄自動取最寬、時間完全對齊、各自不斷行；放不下時整個時間表換到下一行。頁尾的週六項目併入營業時間項目（箭頭圖示移除）。
+  修改位置：`content/pages/contact.html`、`content/pages/form-test.html`、`src/templates/footer.html`（**直接改內容檔，不要重跑 2-extract.mjs，會被蓋回原站寫法**）。
+- **驗證**：360／767／768／1024／1025／1280／1440／1920px 全部同一行且對齊；頁尾因此比原站矮（原站斷成 4 行）。
+
+### #31 「聯絡我們」頁不應該有頁尾
+- 原站只有 `/contact/` 沒有頁尾（Elementor 頁尾顯示條件排除，因為內容與頁尾重複），我們的版型原本每頁都加。
+- **解法**：`data/pages.json` 該頁 `"footer": false`；`layout.html` 的頁尾改為 `{{footer}}` 變數，build 依頁面設定輸出。
+- 之前逐頁比對沒比到這一頁才漏掉。**新增的全站比對要涵蓋所有頁面類型。**
+
+### #32 RWD 比對方法的陷阱
+- 用畫面外 iframe 一次量多種寬度很方便，但有兩個假差異：
+  1. 父頁面若載入網站 CSS（OceanWP 有 `iframe{max-width:100%}`），iframe 會被壓窄 → 父頁要用**沒有 CSS 的頁面**（例如直接開一張圖片網址）。
+  2. Elementor 固定頁首會在 iframe 內產生不同的佔位複本、logo 顯示未載入，造成頁首假差異。
+- **可靠做法**：`resize_window` 設定寬度 → 直接開原站頁面量測存到 `window.name` → 開本機同頁比對（排除刻意修改的頁尾）。
+- 2026-09-29 平板 768／1024 比對結果：首頁、聯絡我們、怡然簡介、心理師、諮商部落、文章頁皆 0 差異（聯絡我們 768px 的營業時間高度差為 #30 的刻意修正）。
 
 ---
 
