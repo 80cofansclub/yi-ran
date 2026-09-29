@@ -106,7 +106,7 @@ docs/form-apps-script.gs           預約表單接收（Google 試算表 + Email
 | 路徑 | 內容 | 沒有的話 |
 |---|---|---|
 | `_export/`（約 18 MB） | 搬家時抓下來的原站 HTML、REST 資料、原站 sitemap | `npm run check`、`2-extract.mjs` 不能跑。原站還在時可用 `node tools/1-fetch.mjs` 重抓；原站關掉後就只剩這份備份，**務必保留** |
-| `docs/report.html` | 網站分析、部署與 SEO 策略報告 | 使用者規定內部分析不外流（不發 artifact、不進 Public repo） |
+| `docs/*.html` | 給人看的報告：`index.html`（總覽）、`takeover-report.html`（接手總報告，非技術讀者）、`self-maintenance-value.html`（效益評估）、`report.html`（技術分析）、`seo-audit.html`（每月健檢） | 使用者規定內部分析不外流（不發 artifact、不進 Public repo）。新增或更新重大分析時，**也要更新給人看的 HTML 報告**，並加進 `docs/index.html` |
 
 ## 規則與慣例
 
