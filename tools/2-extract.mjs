@@ -33,6 +33,8 @@ function localize(html) {
     .replace(/\/cdn-cgi\/l\/email-protection#([0-9a-f]+)/g, (_, h) => 'mailto:' + decodeCfEmail(h))
     // 原站信箱連結同時寄給維運廠商，解約後只保留診所信箱
     .replace(/,\s*yclin925@iwangoweb\.com/g, '')
+    // 表單的 reCAPTCHA 欄位：移除原站（廠商申請）的金鑰，改由 site.js 依 data/site.json 的金鑰啟用
+    .replace(/class="elementor-g-recaptcha"\s+data-sitekey="[^"]*"/g, 'class="site-recaptcha"')
     .replace(/<(a|span)([^>]*?)class="__cf_email__"[^>]*data-cfemail="([0-9a-f]+)"[^>]*>[^<]*<\/\1>/g,
       (_, t, pre, h) => decodeCfEmail(h));
 }
@@ -95,13 +97,16 @@ function templatizeCard($, article) {
   $a.find('.elementor-post__excerpt').html(`<p>{{excerpt:${excerptLen}}}</p>`);
   $a.find('.elementor-post__read-more').attr('aria-label', 'Read more about {{title}}');
   const $img = $a.find('.elementor-post__thumbnail img');
+  // 圖片載入屬性（loading="lazy"、fetchpriority="high"）WordPress 依「第幾張圖」決定，
+  // 記下原站這個列表每個位置的屬性，建置時依位置套用（超過的沿用最後一個）
+  const loadAttrs = $(article).parent().find('article .elementor-post__thumbnail img').map((_, im) =>
+    Object.keys(im.attribs).filter(k => ['loading', 'fetchpriority', 'decoding'].includes(k)).map(k => `${k}="${im.attribs[k]}"`).join(' ')).get();
   if ($img.length) {
     const size = (($img.attr('class') || '').match(/\bsize-([\w-]+)/) || [])[1] || 'full';
-    const attrs = ['loading', 'decoding'].filter(k => $img.attr(k)).map(k => `${k}="${$img.attr(k)}"`).join(' ');
-    $img.replaceWith(`{{img:${size}:${$img.attr('srcset') ? 'srcset' : 'plain'}:${attrs}}}`);
+    $img.replaceWith(`{{img:${size}:${$img.attr('srcset') ? 'srcset' : 'plain'}}}`);
     $a.find('.elementor-post__thumbnail__link').before('<!--thumb-->').after('<!--/thumb-->');
   }
-  return localize($.html($a));
+  return `<!--img-load-attrs:${JSON.stringify(loadAttrs)}-->\n` + localize($.html($a));
 }
 // 首頁/側欄的「最新文章」小工具 → 換成建置時產生的標記 {{posts:類型:篇數:卡片樣板}}
 function markPostsWidgets($, scope) {

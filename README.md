@@ -53,7 +53,7 @@ node tools/new-post.mjs 最新消息 2026-11-holiday "2026年11月公休日"
 
 ## 預約表單
 
-表單送到 `data/site.json` 的 `form.endpoint`。設定方式見 `docs/form-apps-script.gs`
+表單送到 `data/site.json` 的 `form.endpoint`；防機器人可選用 reCAPTCHA v3（`form.recaptchaSiteKey`）。設定方式見 `docs/form-apps-script.gs`
 （Google 試算表 + Email 通知，免費）。沒設定時，表單會顯示「請來電預約」。
 
 ## 檢查工具

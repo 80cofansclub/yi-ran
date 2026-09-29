@@ -10,6 +10,33 @@
   }
   var configPromise = fetch(BASE + '/assets/site-config.json').then(function (r) { return r.json(); }).catch(function () { return {}; });
 
+  // ---------- 0. Google reCAPTCHA v3（data/site.json 的 form.recaptchaSiteKey 有填才啟用）----------
+  // 徽章顯示在表單內原本的位置（與原站相同的 inline 樣式）
+  configPromise.then(function (cfg) {
+    var key = cfg.form && cfg.form.recaptchaSiteKey;
+    var slots = document.querySelectorAll('.site-recaptcha');
+    if (!key || !slots.length) return;
+    window.__siteRecaptchaReady = function () {
+      Array.prototype.forEach.call(slots, function (el) {
+        el.setAttribute('data-widget-id', window.grecaptcha.render(el, { sitekey: key, badge: 'inline', size: 'invisible' }));
+      });
+    };
+    var s = document.createElement('script');
+    s.src = 'https://www.google.com/recaptcha/api.js?render=explicit&onload=__siteRecaptchaReady';
+    s.async = true;
+    document.head.appendChild(s);
+  });
+  function recaptchaToken(form) {
+    var el = form.querySelector('.site-recaptcha[data-widget-id]');
+    if (!el || !window.grecaptcha) return Promise.resolve('');
+    return new Promise(function (resolve) {
+      window.grecaptcha.ready(function () {
+        window.grecaptcha.execute(Number(el.getAttribute('data-widget-id')), { action: 'reservation' })
+          .then(resolve, function () { resolve(''); });
+      });
+    });
+  }
+
   // ---------- 1. 預約表單（Elementor Form）----------
   // 原本送到 wp-admin/admin-ajax.php；改送到 data/site.json 的 form.endpoint
   // 欄位名稱取自表單上的標籤，去掉「▼」「：」與括號說明；沒有標籤的欄位（例如星期二～六的時段）
@@ -54,7 +81,10 @@
       }
       if (btn) btn.disabled = true;
       // no-cors：Google Apps Script / Formspree 都收得到；回應內容無法讀取，送出即視為成功
-      return fetch(f.endpoint, { method: 'POST', mode: 'no-cors', body: new URLSearchParams(data) })
+      return recaptchaToken(form).then(function (token) {
+        if (token) data.recaptchaToken = token; // 由 Apps Script 向 Google 驗證後刪除，不會存進試算表
+        return fetch(f.endpoint, { method: 'POST', mode: 'no-cors', body: new URLSearchParams(data) });
+      })
         .then(function () {
           form.reset();
           showMsg(form, f.successMessage || '已送出，謝謝！', true);

@@ -14,9 +14,35 @@
 
 const NOTIFY_EMAIL = 'yiran.mind@gmail.com';   // 收通知的信箱
 const SHEET_NAME = '預約';
+const RECAPTCHA_MIN_SCORE = 0.5;               // 0～1，越高越嚴格；誤擋真人時可調低到 0.3
+
+/**
+ * （選用）啟用 reCAPTCHA 防機器人：
+ *  1. 到 https://www.google.com/recaptcha/admin/create 建立：類型選「以分數為準 (v3)」，
+ *     網域填 yiranmind.com、80cofansclub.github.io、localhost
+ *  2. 「網站金鑰」填到網站 data/site.json → form.recaptchaSiteKey（這組是公開的）
+ *  3. 「密鑰」填到這裡：Apps Script 左側「專案設定」⚙️ →「指令碼屬性」→ 新增
+ *       屬性：RECAPTCHA_SECRET　值：<密鑰>
+ *     密鑰千萬不要寫進網站程式碼或 GitHub
+ *  4. 設定好屬性後，沒有通過驗證的送出會被直接丟棄
+ */
+function verifyRecaptcha(token) {
+  const secret = PropertiesService.getScriptProperties().getProperty('RECAPTCHA_SECRET');
+  if (!secret) return true; // 沒設定密鑰＝不檢查
+  if (!token) return false;
+  const res = UrlFetchApp.fetch('https://www.google.com/recaptcha/api/siteverify', {
+    method: 'post', payload: { secret: secret, response: token }, muteHttpExceptions: true,
+  });
+  const r = JSON.parse(res.getContentText());
+  return r.success && r.action === 'reservation' && r.score >= RECAPTCHA_MIN_SCORE;
+}
 
 function doPost(e) {
-  const data = e.parameter || {};
+  const data = Object.assign({}, e.parameter || {});
+
+  const token = data.recaptchaToken;
+  delete data.recaptchaToken; // 驗證用，不存進試算表
+  if (!verifyRecaptcha(token)) return ok();
 
   // 防垃圾：沒有電話或內容過長一律丟棄
   const phone = Object.keys(data).find(k => /電話|手機/.test(k));

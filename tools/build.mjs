@@ -99,31 +99,34 @@ function renderPage({ urlPath, seo, title, bodyClass, header = 'page', popup = f
   }).replace(/(<form[^>]*class="mobile-searchform"[^>]*action=")\/(")/, '$1/search/$2');
 }
 
-// 文章卡片（沿用 Elementor 的 markup，外觀與原站相同）
-function imgTag(fi, cls = 'attachment-full size-full') {
-  if (!fi) return '';
-  const variants = [fi.sizes?.full || { src: fi.src, width: fi.width }, ...Object.entries(fi.sizes || {}).filter(([k]) => !['full', 'thumbnail'].includes(k)).map(([, v]) => v)];
-  const srcset = [...new Map(variants.filter(v => v.width).map(v => [v.src, `${encPath(v.src)} ${v.width}w`])).values()].join(', ');
-  return `<img loading="lazy" decoding="async" width="${fi.width || ''}" height="${fi.height || ''}" src="${encPath(fi.src)}" class="${cls}" alt="${esc(fi.alt)}"${srcset ? ` srcset="${srcset}" sizes="(max-width: ${fi.width}px) 100vw, ${fi.width}px"` : ''}>`;
-}
 // 文章卡片：套用 src/templates/cards/<樣板>.html（各列表沿用原站自己的卡片長相）
+// 與 WordPress wp_get_attachment_image 相同規則：選用尺寸排第一，其餘同比例尺寸依序排入 srcset
 function cardImg(fi, size, mode, attrs) {
-  const v = fi.sizes?.[size] || fi.sizes?.full || { src: fi.src, width: fi.width, height: fi.height };
-  const variants = [fi.sizes?.full || { src: fi.src, width: fi.width }, ...Object.entries(fi.sizes || {}).filter(([k]) => !['full', 'thumbnail'].includes(k)).map(([, x]) => x)];
-  const srcset = mode === 'srcset'
-    ? [...new Map(variants.filter(x => x.width && x.width <= v.width).map(x => [x.src, `${encPath(x.src)} ${x.width}w`])).values()].join(', ')
+  const full = fi.sizes?.full || { src: fi.src, width: fi.width, height: fi.height };
+  const v = fi.sizes?.[size] || full;
+  const ratio = x => x.width / x.height;
+  const same = x => x.width && x.height && Math.abs(ratio(x) - ratio(full)) < 0.01 * ratio(full) + 0.02;
+  const pool = [...Object.entries(fi.sizes || {}).filter(([k]) => k !== 'full').map(([, x]) => x), full].filter(same);
+  const list = [v, ...pool.filter(x => x.src !== v.src)];
+  // 後台「編輯/裁切」過的圖（檔名有 -e1583621915814 這類尾碼）WordPress 不輸出 srcset
+  const srcset = mode === 'srcset' && list.length > 1 && !/-e\d{10,}\.\w+$/.test(v.src)
+    ? [...new Map(list.map(x => [x.width, `${encPath(x.src)} ${x.width}w`])).values()].join(', ')
     : '';
   return `<img ${attrs ? attrs + ' ' : ''}width="${v.width}" height="${v.height}" src="${encPath(v.src)}" class="attachment-${size} size-${size}${fi.id ? ` wp-image-${fi.id}` : ''}" alt="${esc(fi.alt)}"${srcset ? ` srcset="${srcset}" sizes="(max-width: ${v.width}px) 100vw, ${v.width}px"` : ''}>`;
 }
-function card(p, tplId = 'archive') {
+// index：這張卡片在列表中的位置（決定圖片是否延遲載入，與原站相同）
+function card(p, tplId = 'archive', index = 0) {
   let html = tpl(`cards/${tplId}`);
+  const loadAttrs = JSON.parse((html.match(/<!--img-load-attrs:(.*?)-->/) || [])[1] || '[]');
+  const attrs = loadAttrs[index] ?? loadAttrs.at(-1) ?? '';
+  html = html.replace(/<!--img-load-attrs:.*?-->\n?/, '');
   if (!p.featuredImage) html = html.replace(/<!--thumb-->[\s\S]*?<!--\/thumb-->/, '');
   const vars = {
     id: p.id, type: p.type, url: encPath(p.path), title: esc(p.title), date: fmtDate(p.date), excerpt: esc(p.excerpt),
     thumbClass: p.featuredImage ? 'has-post-thumbnail' : '',
   };
   return html
-    .replace(/\{\{img:([\w-]+):(\w+):([^}]*)\}\}/, (_, size, mode, attrs) => cardImg(p.featuredImage, size, mode, attrs.trim()))
+    .replace(/\{\{img:([\w-]+):(\w+)\}\}/, (_, size, mode) => cardImg(p.featuredImage, size, mode, attrs))
     .replace(/\{\{excerpt:(\d+)\}\}/g, (_, n) => esc(p.excerptOverrides?.[n] ?? [...p.excerpt].slice(0, +n).join('')))
     .replace(/\{\{(\w+)\}\}/g, (m, k) => vars[k] ?? m)
     .replace(/<!--\/?thumb-->/g, '').trim();
@@ -133,7 +136,7 @@ const imagesIn = html => [...html.matchAll(/<img[^>]+src="(\/wp-content\/uploads
 // 最後修改時間（UTC）；新文章沒填 modifiedGmt 時由台灣時間換算
 const gmt = p => p.modifiedGmt || new Date((p.modified || p.date) + '+08:00').toISOString().slice(0, 19);
 const expandPostMarkers = html => html.replace(/\{\{posts:(\w+):(\d+):(\w+)\}\}/g, (_, type, n, tplId) =>
-  posts.filter(p => p.type === type).slice(0, +n).map(p => card(p, tplId)).join('\n'));
+  posts.filter(p => p.type === type).slice(0, +n).map((p, i) => card(p, tplId, i)).join('\n'));
 
 function breadcrumbs(items) {
   const parts = items.map((it, i) => i === items.length - 1
@@ -178,7 +181,7 @@ async function build() {
       let main = content;
       if (total > 1) {
         const n = +marker[2];
-        main = main.replace(marker[0], posts.filter(x => x.type === marker[1]).slice((page - 1) * n, page * n).map(x => card(x, marker[3])).join('\n'))
+        main = main.replace(marker[0], posts.filter(x => x.type === marker[1]).slice((page - 1) * n, page * n).map((x, i) => card(x, marker[3], i)).join('\n'))
           .replace(NAV_RE, pagination(p.path, page, total, '', true))
           .replace(/data-page="\d+" data-max-page="\d+" data-next-page="[^"]*"/, '');
       }
@@ -204,7 +207,7 @@ async function build() {
         date: fmtDate(p.date),
         time: fmtTime(p.date),
         tagLinks: tagObjs.map(t => `<a href="${encPath(t.path)}" class="elementor-post-info__terms-list-item">${esc(t.name)}</a>`).join(', '),
-        featuredImage: imgTag(p.featuredImage, 'attachment-large size-large'),
+        featuredImage: p.featuredImage ? cardImg(p.featuredImage, 'large', 'srcset', '') : '',
         content: postHtml(p),
         breadcrumbs: breadcrumbs([home, { name: coll.breadcrumbName, path: coll.path }, { name: p.title }]),
         postNavigation: nav,
@@ -228,7 +231,7 @@ async function build() {
       const main = fill(tpl('archive'), {
         archiveTitle: esc(title),
         breadcrumbs: breadcrumbs(crumbs),
-        postCards: list.slice((page - 1) * perPage, page * perPage).map(p => card(p, 'archive')).join('\n'),
+        postCards: list.slice((page - 1) * perPage, page * perPage).map((p, i) => card(p, 'archive', i)).join('\n'),
         pagination: pagination(basePath, page, total),
       });
       const pSeo = page === 1 ? seo : pagedSeo(seo, title, page, total);
