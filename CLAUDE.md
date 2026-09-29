@@ -121,6 +121,7 @@ docs/form-apps-script.gs           預約表單接收（Google 試算表 + Email
   3. 站內搜尋 `/?s=` → `/search/`（site.js 自動轉址）
   4. 文章日期不連到日期彙整頁（原站那是 404）
   5. 特色圖片／列表縮圖不加 `loading="lazy"` 的情況比原站多（見問題紀錄 #13）
+  6. 右下角浮動按鈕（電話、Messenger、回到頂端）`z-index: 9000`，永遠在最上層（見問題紀錄 #29）
 - 這個 repo 的 git 身分：`80cofansclub <27292529+80cofansclub@users.noreply.github.com>`（repo 設定，不要用公司信箱）。
 - commit 訊息用繁體中文。
 
@@ -262,6 +263,13 @@ docs/form-apps-script.gs           預約表單接收（Google 試算表 + Email
 ### #28 Google 表單接收程式升級版暫緩（git stash）
 - 使用者決定 Google 表單相關先不處理。升級版（管理欄位、未處理提醒、月統計、個資清除）已用 node vm 模擬 SpreadsheetApp/MailApp 等 API 測試通過，存在原電腦的 `git stash`，**不在 GitHub**。
 - 要繼續：`git stash list` → `git stash pop`。換電腦前要先 pop 並存成檔案，stash 不會跟著 clone。詳見 RUNBOOK.md §6.6。
+
+### #29 右下角浮動按鈕被輪播圖蓋住（原站既有問題）
+- **症狀**：使用者截圖中，電話與 Messenger 按鈕被「環境介紹」頁的輪播圖蓋住，只有回到頂端按鈕在上面。
+- **原因**：原站自訂 CSS 的 `.phone`／`.messenger` 只有 `position:fixed`，沒有 `z-index`；輪播切換或進場動畫時，有 transform 的圖層會畫在它們上面。原站同樣情況也會被蓋（已用模擬圖層在原站驗證）。
+- **解法**：`src/assets/site.css` 加 `img.phone, img.messenger, #scroll-top { z-index: 9000; }`。
+  9000 高於頁面內容，但低於 Elementor 彈出視窗（9999），彈窗開啟時不會被按鈕蓋住。
+- **驗證方式**：動畫與輪播的覆蓋是瞬間發生，用 `elementFromPoint` 靜態量測量不到；改為插入 `position:fixed; z-index:1; transform` 的模擬圖層，確認按鈕仍在最上層。
 
 ---
 

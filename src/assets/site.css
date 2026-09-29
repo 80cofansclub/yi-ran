@@ -13,3 +13,8 @@
 #site-search-results li a { font-size: 18px; font-weight: 600; }
 #site-search-results li small { display: block; color: #888; margin: 4px 0; }
 #site-search-results li p { margin: 0; color: #555; }
+
+/* 右下角浮動按鈕（電話、Messenger、回到頂端）永遠在最上層。
+   原站 .phone/.messenger 沒有設 z-index，輪播圖切換或進場動畫時會被蓋住（原站既有問題）。
+   9000：高於頁面內容與固定選單，但低於 Elementor 彈出視窗（9999）與燈箱，彈窗開啟時不會蓋住彈窗。 */
+img.phone, img.messenger, #scroll-top { z-index: 9000; }
