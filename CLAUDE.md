@@ -243,6 +243,16 @@ docs/form-apps-script.gs           預約表單接收（Google 試算表 + Email
 ### #25 Google Trends 在公司網路回 429
 - 共用對外 IP 被限流（同 #16）。不要重試，請使用者換網路查或提供截圖/CSV。
 
+### #26 ⚠️ reCAPTCHA 密鑰被 commit 進 Public repo（2026-09-29）
+- **經過**：使用者把金鑰存成 `docs/recaptcha.txt`，Claude 用 `git add -A` 沒逐一檢查新檔案就 commit 並 push。
+- **處理**：`git rm --cached` + 加進 .gitignore；經使用者同意後 `git reset --soft` 合併 commit 並 `git push --force-with-lease` 改寫歷史。
+  但 GitHub 仍可用舊 commit 編號（b2b978b）直接存取，**舊金鑰必須作廢重建**；要徹底移除需向 GitHub Support 申請 Remove sensitive data。
+- **規則（之後一律遵守）**：
+  1. commit 前先看 `git status --short`，**出現不是自己建立的新檔案要先問使用者**，不可直接 `git add -A`。
+  2. 密鑰、密碼、token 只能放 .gitignore 內的位置（`/secrets/`、`*.secret`），或 Apps Script 指令碼屬性，絕不寫進程式碼與 data/。
+  3. reCAPTCHA「網站金鑰」可以公開（放 `data/site.json`）；「密鑰」只能放 Apps Script 的 `RECAPTCHA_SECRET`。
+  4. 改寫已推送的歷史（force push）一定要先取得使用者同意。
+
 ---
 
 ## 網域接到 GitHub Pages 的步驟

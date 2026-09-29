@@ -96,6 +96,9 @@
 
 ## §6 reCAPTCHA
 
+> ⚠️ 2026-09-29 使用者新申請的金鑰（網站金鑰開頭 `6Ld6DdUt`）曾被誤提交到 Public repo，**已作廢，請刪除該組金鑰並重新申請**。
+> 新金鑰：網站金鑰填 `data/site.json` 的 `form.recaptchaSiteKey`；密鑰**只**放 Apps Script 指令碼屬性，不要存成專案內的檔案。
+
 原站表單的 reCAPTCHA 金鑰 `6LevG7IeAAAAAJTcMTJalq4StBggUma5uKfI0Kqo` 是廠商的 Google 帳號申請的，已從網站移除。要啟用防機器人請自己申請，步驟在 `docs/form-apps-script.gs` 註解（網站金鑰填 `data/site.json`，**密鑰只放 Apps Script**）。
 
 ---
