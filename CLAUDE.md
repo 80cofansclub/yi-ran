@@ -222,3 +222,4 @@ docs/form-apps-script.gs           預約表單接收（Google 試算表 + Email
 - [ ] （選用）申請 reCAPTCHA v3，網站金鑰填 `form.recaptchaSiteKey`、密鑰填 Apps Script 屬性
 - [ ] 先用 `new.yiranmind.com` 測試，再把 DNS 切到 GitHub Pages（A 185.199.108-111.153、www CNAME `80cofansclub.github.io`，DNS only）
 - [ ] 切換後 Search Console 重新提交 `sitemap_index.xml`；舊主機保留 2 週再解約
+
