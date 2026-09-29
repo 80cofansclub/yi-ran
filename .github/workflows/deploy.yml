@@ -25,7 +25,12 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci --omit=dev
+      # 取得 Pages 的網址資訊：還沒綁自訂網址時 base_path 是 /yi-ran，綁了 yiranmind.com 後是空的
+      - id: pages
+        uses: actions/configure-pages@v5
       - run: node tools/build.mjs
+        env:
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

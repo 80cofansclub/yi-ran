@@ -6,6 +6,8 @@ import path from 'node:path';
 import { marked } from 'marked';
 
 const ROOT = path.resolve('.');
+// 網站放在子路徑時使用（例如 GitHub 預覽網址 /yi-ran）；正式網址為空字串
+const BASE = (process.env.BASE_PATH || '').replace(/\/$/, '');
 const DIST = path.join(ROOT, 'dist');
 const readJson = f => JSON.parse(fss.readFileSync(path.join(ROOT, f), 'utf8'));
 const readText = f => fss.readFileSync(path.join(ROOT, f), 'utf8');
@@ -294,7 +296,37 @@ async function build() {
   await fs.writeFile(path.join(DIST, '.nojekyll'), '');
   await fs.writeFile(path.join(DIST, 'assets', 'site-config.json'), JSON.stringify({ form: site.form, phone: site.phone }));
 
-  console.log(`built: ${pages.length} pages, ${posts.length} posts, ${Object.values(sitemap).flat().length} sitemap urls → dist/`);
+  if (BASE) await applyBasePath();
+  console.log(`built: ${pages.length} pages, ${posts.length} posts, ${Object.values(sitemap).flat().length} sitemap urls → dist/${BASE ? `（預覽模式，子路徑 ${BASE}）` : ''}`);
+}
+
+// ---------- 子路徑預覽模式 ----------
+// 還沒綁自己的網址時，GitHub Pages 網址是 https://<帳號>.github.io/<repo>/，
+// 所有以 / 開頭的站內網址都要加上 /<repo> 前綴。綁定 yiranmind.com 後 BASE 為空，不會執行這段。
+// 預覽網址一律 noindex，避免被 Google 當成重複網站。
+async function applyBasePath() {
+  const B = BASE, EB = BASE.replace(/\//g, '\\/');
+  const walk = d => fss.readdirSync(d, { withFileTypes: true }).flatMap(e => e.isDirectory() ? walk(path.join(d, e.name)) : [path.join(d, e.name)]);
+  const fixCssUrls = s => s.replace(/url\(\s*(['"]?)\/(?!\/)/g, `url($1${B}/`);
+  for (const f of walk(DIST)) {
+    const ext = path.extname(f);
+    if (ext === '.css') { fss.writeFileSync(f, fixCssUrls(fss.readFileSync(f, 'utf8'))); continue; }
+    if (ext !== '.html') continue;
+    let h = fss.readFileSync(f, 'utf8');
+    h = h
+      // 一般屬性：href="/..."、src="/..."、action="/..."
+      .replace(/\b(href|src|action|data-src|poster|data-large_image|data-thumbnail)=(["'])\/(?!\/)/g, `$1=$2${B}/`)
+      // srcset 內的每個網址
+      .replace(/\bsrcset=(["'])([^"']*)\1/g, (m, q, v) => `srcset=${q}${v.replace(/(^|,\s*)\/(?!\/)/g, `$1${B}/`)}${q}`)
+      // 行內樣式與 <style> 的 url(/...)
+      .replace(/url\(\s*(&quot;|['"]?)\/(?!\/)/g, `url($1${B}/`)
+      // JSON 設定裡的跳脫網址（Elementor 的 "\/wp-content\/..."）
+      .replace(/(["']|&quot;)\\\/(?!\\\/)/g, `$1${EB}\\/`)
+      .replace(/<head>/, `<head>\n<script>window.SITE_BASE=${JSON.stringify(B)}</script>`)
+      .replace(/<meta name="robots" content="[^"]*">/, '<meta name="robots" content="noindex, nofollow">');
+    fss.writeFileSync(f, h);
+  }
+  fss.writeFileSync(path.join(DIST, 'robots.txt'), 'User-agent: *\nDisallow: /\n');
 }
 const pendingSingles = [];
 build();

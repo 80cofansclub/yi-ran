@@ -6,6 +6,7 @@ import path from 'node:path';
 
 const DIST = path.resolve('dist');
 const PORT = Number(process.argv[2] || process.env.PORT || 8080);
+const BASE = (process.env.BASE_PATH || '').replace(/\/$/, '');
 const TYPES = {
   '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8',
   '.json': 'application/json; charset=utf-8', '.xml': 'application/xml; charset=utf-8', '.txt': 'text/plain; charset=utf-8',
@@ -28,6 +29,11 @@ http.createServer((req, res) => {
   }
   let p;
   try { p = decodeURIComponent(new URL(req.url, 'http://x').pathname); } catch { p = '/'; }
+  // 模擬子路徑部署：BASE_PATH=/yi-ran 時，只有 /yi-ran/ 底下的網址有效（與 GitHub Pages 預覽網址相同）
+  if (BASE) {
+    if (!p.startsWith(BASE + '/')) { res.writeHead(404); return res.end('not under ' + BASE); }
+    p = p.slice(BASE.length);
+  }
   let file = path.join(DIST, p);
   if (!file.startsWith(DIST)) { res.writeHead(403); return res.end(); }
   if (fs.existsSync(file) && fs.statSync(file).isDirectory()) {
@@ -47,4 +53,4 @@ http.createServer((req, res) => {
     res.writeHead(status, { 'content-type': TYPES[path.extname(file).toLowerCase()] || 'application/octet-stream' });
     stream.pipe(res);
   });
-}).listen(PORT, () => console.log(`預覽：http://localhost:${PORT}/`));
+}).listen(PORT, () => console.log(`預覽：http://localhost:${PORT}${BASE}/`));

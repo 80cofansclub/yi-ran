@@ -2,11 +2,13 @@
 (function () {
   'use strict';
   // 舊 WordPress 搜尋網址 /?s=關鍵字（結構化資料與舊連結會用到）→ 轉到靜態站的搜尋頁
-  if (location.pathname === '/' && /[?&]s=/.test(location.search)) {
-    location.replace('/search/' + location.search);
+  // 網站放在子路徑時（例如 GitHub 預覽網址 /yi-ran/）由建置注入 SITE_BASE
+  var BASE = window.SITE_BASE || '';
+  if (location.pathname === BASE + '/' && /[?&]s=/.test(location.search)) {
+    location.replace(BASE + '/search/' + location.search);
     return;
   }
-  var configPromise = fetch('/assets/site-config.json').then(function (r) { return r.json(); }).catch(function () { return {}; });
+  var configPromise = fetch(BASE + '/assets/site-config.json').then(function (r) { return r.json(); }).catch(function () { return {}; });
 
   // ---------- 1. 預約表單（Elementor Form）----------
   // 原本送到 wp-admin/admin-ajax.php；改送到 data/site.json 的 form.endpoint
@@ -71,7 +73,7 @@
     if (input) input.value = q;
     if (q) {
       box.textContent = '搜尋中…';
-      fetch('/search-index.json').then(function (r) { return r.json(); }).then(function (items) {
+      fetch(BASE + '/search-index.json').then(function (r) { return r.json(); }).then(function (items) {
         var words = q.toLowerCase().split(/\s+/).filter(Boolean);
         var hits = items.map(function (it) {
           var t = it.t.toLowerCase(), x = (it.e + ' ' + it.x).toLowerCase(), score = 0;
@@ -89,7 +91,7 @@
         var ul = document.createElement('ul');
         hits.forEach(function (h) {
           var li = document.createElement('li');
-          var a = document.createElement('a'); a.href = h.it.u; a.textContent = h.it.t;
+          var a = document.createElement('a'); a.href = BASE + h.it.u; a.textContent = h.it.t;
           var small = document.createElement('small'); small.textContent = h.it.d;
           var ex = document.createElement('p'); ex.textContent = h.it.e + '…';
           li.appendChild(a); li.appendChild(small); li.appendChild(ex); ul.appendChild(li);
