@@ -35,9 +35,61 @@
 - 網域 `yiranmind.com` 註冊在 **Cloudflare Registrar**（2020-02-21 註冊，**2027-02-21 到期**），DNS 也在 Cloudflare。
 - 如果這個 Cloudflare 帳號是廠商的，網址等於在廠商手上。
 
-要做的事：
-- [ ] 請廠商**先匯出 DNS 記錄**（DNS → Records → Export）給你備份
-- [ ] 把網域移轉到你自己的 Cloudflare 帳號（由 Cloudflare 帳號間移轉，依 Cloudflare 當時的官方說明）
+### 已付的年限會不會浪費？
+
+不會。網域的到期日記錄在 .com 的註冊局，**跟著網域走，不跟著帳號走**，移到你的帳號後到期日仍是 2027-02-21。
+另外注意：註冊局顯示網域只付到 2027-02-21；廠商收的「網域費用 NT$26,000／3 年」是他們的收費方式（可能含主機），實際網域成本約每年 US$10～11。
+若合約期間未滿就解約，可以和廠商討論未使用期間的費用。
+
+### 方法一（建議）：Cloudflare 帳號間移轉
+
+網域本來就在 Cloudflare，最簡單的方式是由廠商把它「移」到你的 Cloudflare 帳號。依 Cloudflare 官方文件（2026-09 查閱），流程如下：
+
+**你先準備（廠商動作之前）**
+1. 用診所的 Email 註冊 Cloudflare 帳號，開啟兩步驟驗證。
+2. 在你的帳號「Add a domain」加入 `yiranmind.com`，選 **Free 方案**（官方前提：網域要先加到目標帳號並選方案）。此時顯示 Pending 是正常的。
+3. 用廠商給的 DNS 匯出檔 **Import** DNS 記錄，逐筆核對（特別是 MX、SPF 等郵件記錄）。
+4. 把你的 **Cloudflare 帳號 Email** 或 **Account ID** 給廠商。
+
+**請廠商做**
+5. **匯出 DNS 記錄**（DNS → Records → Export）給你，移轉會清掉舊帳號的所有設定。
+6. **關閉 DNSSEC**、移除這個網域的付費加購與訂閱（官方前提）。
+7. 確認網域的「註冊人 Email」已驗證、沒有進行中的其他變更。
+8. 在「Registrar → Manage Domain → **Configuration**」送出移轉到你帳號的請求。
+
+**你再做**
+9. 收到通知信後，到你帳號的「Manage Domains」**接受**移轉。**必須在 5 天內**，否則請求自動取消。
+10. 確認網域狀態變成 **Active**、nameserver 是你帳號分配的那組；打開網站、寄一封信到 @yiranmind.com（如果有在用）確認正常。
+11. 開啟**自動續約**、設定付款方式；需要的話重新開啟 DNSSEC。
+12. 檢查 **WHOIS 註冊人資料**（會原樣移過來）：如果是廠商的名字或信箱，改成診所的資料。
+
+**要知道的事**
+- 移轉完成後網域會**鎖定 30 天**，期間不能再移出（不影響網站運作）。
+- 移轉會清除舊帳號的 SSL 憑證與所有設定，所以一定要先匯入 DNS 記錄。新帳號從 Pending 變成 Active 之前，Cloudflare 的代理功能不會生效。本網站的 GitHub Pages 記錄本來就設成 DNS only（灰色雲），受影響不大，但建議挑**網站流量低的時段**進行。
+- 舊帳號的網域會顯示「Moved Away」，7 天後從廠商帳號刪除。
+
+### 方法二（備用）：移到其他註冊商
+
+如果廠商不願意操作方法一，可以請廠商**解除移轉鎖定、提供移轉授權碼（auth code / EPP code）**，由你在其他註冊商發起移轉（通常要付一年費用，**到期日會再往後延一年**，不會浪費）。移轉完成 60 天後，想移回自己的 Cloudflare 帳號也可以。缺點是步驟多，且過程中 DNS 要另外安排，容易影響網站與信箱。
+
+### 如果廠商不配合
+
+- 先確認 **WHOIS 註冊人**是誰：網域的法律所有人是註冊人。如果登記的是診所或你們的名字，所有權就在你們手上，可以把相關文件提供給 Cloudflare 客服說明。
+- 若註冊人登記成廠商，需要回到合約討論；必要時尋求法律協助。
+- 建議在合約到期前就開始處理，不要拖到網域到期。
+
+### 給廠商的訊息範本
+
+> 您好，我們規劃之後由診所自行維護網站。麻煩協助將 yiranmind.com 從貴公司的 Cloudflare 帳號移轉到診所的 Cloudflare 帳號：
+> 1. 先匯出目前的 DNS 記錄（BIND 檔）給我們；
+> 2. 關閉 DNSSEC、移除這個網域的加購項目；
+> 3. 在 Registrar 的 Manage Domain → Configuration 送出移轉，目標帳號：（填你的 Cloudflare 帳號 Email 或 Account ID）。
+> 另外也請提供 WordPress 網站完整備份與表單的歷史資料。移轉完成前，現有網站與主機請先維持運作，謝謝。
+
+官方文件：[Move a Cloudflare Registrar domain registration between accounts](https://developers.cloudflare.com/registrar/account-options/inter-account-transfer/)、[Move a domain between Cloudflare accounts](https://developers.cloudflare.com/fundamentals/manage-domains/move-domain/)、[Transfer domain from Cloudflare to another registrar](https://developers.cloudflare.com/registrar/account-options/transfer-out-from-cloudflare/)
+
+### 移轉完成後
+
 - [ ] 確認到期日、付款方式、**自動續約**已開
 - [ ] 檢查 Cloudflare 其他設定：Rules（轉址規則）、SSL/TLS、Email Routing，有沒有廠商設的東西
 - 接到 GitHub Pages 的步驟見 `CLAUDE.md`「網域接到 GitHub Pages 的步驟」
