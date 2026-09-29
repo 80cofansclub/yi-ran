@@ -1,0 +1,8 @@
+node_modules/
+dist/
+# 搬家時從舊站抓下來的原始備份（約數十 MB），留在本機即可，不進版控
+_export/
+# 內部分析報告只留在本機
+docs/report.html
+# 本機預覽設定
+.claude/

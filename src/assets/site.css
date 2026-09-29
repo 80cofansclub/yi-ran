@@ -1,0 +1,15 @@
+/* 靜態站新增元件的樣式（原站樣式都在 /wp-content 下，勿改那邊） */
+.site-form-msg { margin-top: 12px; padding: 10px 14px; border-radius: 6px; font-size: 15px; width: 100%; }
+.site-form-msg.is-ok { background: #e8f5e9; color: #1b5e20; }
+.site-form-msg.is-err { background: #fdecea; color: #8a1c1c; }
+
+.site-simple-page { max-width: 820px; margin: 0 auto; padding: 60px 16px 80px; min-height: 50vh; }
+.site-simple-page h1 { font-size: 28px; margin-bottom: 24px; }
+.site-search-form { display: flex; gap: 8px; margin-bottom: 24px; }
+.site-search-form input { flex: 1; min-width: 0; padding: 10px 12px; font-size: 16px; }
+.site-search-form button { padding: 10px 20px; }
+#site-search-results ul { list-style: none; margin: 0; padding: 0; }
+#site-search-results li { padding: 16px 0; border-bottom: 1px solid #eee; }
+#site-search-results li a { font-size: 18px; font-weight: 600; }
+#site-search-results li small { display: block; color: #888; margin: 4px 0; }
+#site-search-results li p { margin: 0; color: #555; }

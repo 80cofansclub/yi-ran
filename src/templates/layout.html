@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{{seo}}
+{{headAssets}}
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body class="{{bodyClass}}" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TBLMSTH"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<div id="outer-wrap" class="site clr">
+<a class="skip-link screen-reader-text" href="#main">跳至主要內容</a>
+<div id="wrap" class="clr">
+{{header}}
+<main id="main" class="site-main clr" role="main">
+{{main}}
+</main>
+{{> footer}}
+</div>
+</div>
+<a id="scroll-top" class="scroll-top-right" href="#"><span class="fa fa-angle-up"></span></a>
+<div id="sidr-close">
+	<a href="#" class="toggle-sidr-close">
+		<i class="icon icon-close"></i><span class="close-text">Close Menu</span>
+	</a>
+</div>
+<div id="mobile-menu-search" class="clr">
+	<form method="get" action="/" class="mobile-searchform">
+		<input type="search" name="s" autocomplete="off" placeholder="Search">
+		<button type="submit" class="searchform-submit">
+			<i class="icon icon-magnifier"></i>
+		</button>
+			</form>
+</div>
+{{popup}}
+{{footScripts}}
+<script src="/assets/site.js" defer></script>
+</body>
+</html>

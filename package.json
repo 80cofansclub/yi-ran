@@ -1,0 +1,21 @@
+{
+  "name": "yiranmind-site",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "serve": "node tools/serve.mjs 8080",
+    "dev": "node tools/build.mjs && node tools/serve.mjs 8080",
+    "check": "node tools/check-sitemap.mjs && node tools/check-seo.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "怡然心理治療所網站（靜態版）",
+  "devDependencies": {
+    "cheerio": "^1.2.0"
+  },
+  "private": true,
+  "dependencies": {
+    "marked": "^18.0.14"
+  }
+}

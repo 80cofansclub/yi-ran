@@ -1,0 +1,4510 @@
+[
+  {
+    "slug": "伴侶諮商",
+    "name": "伴侶諮商",
+    "path": "/tag/伴侶諮商/",
+    "description": "",
+    "seo": {
+      "title": "伴侶諮商 Archives - 怡然心理治療所",
+      "canonical": "/tag/伴侶諮商/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "伴侶諮商 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e4%bc%b4%e4%be%b6%e8%ab%ae%e5%95%86/",
+            "url": "/tag/%e4%bc%b4%e4%be%b6%e8%ab%ae%e5%95%86/",
+            "name": "伴侶諮商 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e4%bc%b4%e4%be%b6%e8%ab%ae%e5%95%86/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e4%bc%b4%e4%be%b6%e8%ab%ae%e5%95%86/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2022/05/solution-g257450a45_1920.jpg",
+            "breadcrumb": {
+              "@id": "/tag/%e4%bc%b4%e4%be%b6%e8%ab%ae%e5%95%86/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e4%bc%b4%e4%be%b6%e8%ab%ae%e5%95%86/#primaryimage",
+            "url": "/wp-content/uploads/2022/05/solution-g257450a45_1920.jpg",
+            "contentUrl": "/wp-content/uploads/2022/05/solution-g257450a45_1920.jpg",
+            "width": 1920,
+            "height": 1439,
+            "caption": "圖翻攝自pixabay網站"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e4%bc%b4%e4%be%b6%e8%ab%ae%e5%95%86/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "伴侶諮商"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "兒童心理諮商",
+    "name": "兒童心理諮商",
+    "path": "/tag/兒童心理諮商/",
+    "description": "",
+    "seo": {
+      "title": "兒童心理諮商 Archives - 怡然心理治療所",
+      "canonical": "/tag/兒童心理諮商/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "兒童心理諮商 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e5%85%92%e7%ab%a5%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86/",
+            "url": "/tag/%e5%85%92%e7%ab%a5%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86/",
+            "name": "兒童心理諮商 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e5%85%92%e7%ab%a5%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e5%85%92%e7%ab%a5%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2024/02/內容重寫器EDM.jpg",
+            "breadcrumb": {
+              "@id": "/tag/%e5%85%92%e7%ab%a5%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e5%85%92%e7%ab%a5%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86/#primaryimage",
+            "url": "/wp-content/uploads/2024/02/內容重寫器EDM.jpg",
+            "contentUrl": "/wp-content/uploads/2024/02/內容重寫器EDM.jpg",
+            "width": 847,
+            "height": 560,
+            "caption": "兒童心理諮商"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e5%85%92%e7%ab%a5%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "兒童心理諮商"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "兒童心理諮商費用",
+    "name": "兒童心理諮商費用",
+    "path": "/tag/兒童心理諮商費用/",
+    "description": "",
+    "seo": {
+      "title": "兒童心理諮商費用 Archives - 怡然心理治療所",
+      "canonical": "/tag/兒童心理諮商費用/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "兒童心理諮商費用 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e5%85%92%e7%ab%a5%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e8%b2%bb%e7%94%a8/",
+            "url": "/tag/%e5%85%92%e7%ab%a5%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e8%b2%bb%e7%94%a8/",
+            "name": "兒童心理諮商費用 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e5%85%92%e7%ab%a5%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e8%b2%bb%e7%94%a8/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e5%85%92%e7%ab%a5%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e8%b2%bb%e7%94%a8/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2024/02/內容重寫器EDM.jpg",
+            "breadcrumb": {
+              "@id": "/tag/%e5%85%92%e7%ab%a5%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e8%b2%bb%e7%94%a8/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e5%85%92%e7%ab%a5%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e8%b2%bb%e7%94%a8/#primaryimage",
+            "url": "/wp-content/uploads/2024/02/內容重寫器EDM.jpg",
+            "contentUrl": "/wp-content/uploads/2024/02/內容重寫器EDM.jpg",
+            "width": 847,
+            "height": 560,
+            "caption": "兒童心理諮商"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e5%85%92%e7%ab%a5%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e8%b2%bb%e7%94%a8/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "兒童心理諮商費用"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "兒童諮商",
+    "name": "兒童諮商",
+    "path": "/tag/兒童諮商/",
+    "description": "",
+    "seo": {
+      "title": "兒童諮商 Archives - 怡然心理治療所",
+      "canonical": "/tag/兒童諮商/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "兒童諮商 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e5%85%92%e7%ab%a5%e8%ab%ae%e5%95%86/",
+            "url": "/tag/%e5%85%92%e7%ab%a5%e8%ab%ae%e5%95%86/",
+            "name": "兒童諮商 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e5%85%92%e7%ab%a5%e8%ab%ae%e5%95%86/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e5%85%92%e7%ab%a5%e8%ab%ae%e5%95%86/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2024/02/內容重寫器EDM.jpg",
+            "breadcrumb": {
+              "@id": "/tag/%e5%85%92%e7%ab%a5%e8%ab%ae%e5%95%86/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e5%85%92%e7%ab%a5%e8%ab%ae%e5%95%86/#primaryimage",
+            "url": "/wp-content/uploads/2024/02/內容重寫器EDM.jpg",
+            "contentUrl": "/wp-content/uploads/2024/02/內容重寫器EDM.jpg",
+            "width": 847,
+            "height": 560,
+            "caption": "兒童心理諮商"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e5%85%92%e7%ab%a5%e8%ab%ae%e5%95%86/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "兒童諮商"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "吳政航-臨床心理師",
+    "name": "吳政航 臨床心理師",
+    "path": "/tag/吳政航-臨床心理師/",
+    "description": "",
+    "seo": {
+      "title": "吳政航 臨床心理師 Archives - 怡然心理治療所",
+      "canonical": "/tag/吳政航-臨床心理師/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "吳政航 臨床心理師 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e5%90%b3%e6%94%bf%e8%88%aa-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/",
+            "url": "/tag/%e5%90%b3%e6%94%bf%e8%88%aa-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/",
+            "name": "吳政航 臨床心理師 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e5%90%b3%e6%94%bf%e8%88%aa-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e5%90%b3%e6%94%bf%e8%88%aa-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2026/01/Gemini_Generated_Image_uwz2guwz2guwz2gu.png",
+            "breadcrumb": {
+              "@id": "/tag/%e5%90%b3%e6%94%bf%e8%88%aa-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e5%90%b3%e6%94%bf%e8%88%aa-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/#primaryimage",
+            "url": "/wp-content/uploads/2026/01/Gemini_Generated_Image_uwz2guwz2guwz2gu.png",
+            "contentUrl": "/wp-content/uploads/2026/01/Gemini_Generated_Image_uwz2guwz2guwz2gu.png",
+            "width": 1024,
+            "height": 1024
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e5%90%b3%e6%94%bf%e8%88%aa-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "吳政航 臨床心理師"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "失眠",
+    "name": "失眠",
+    "path": "/tag/失眠/",
+    "description": "",
+    "seo": {
+      "title": "失眠 Archives - 怡然心理治療所",
+      "canonical": "/tag/失眠/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "失眠 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e5%a4%b1%e7%9c%a0/",
+            "url": "/tag/%e5%a4%b1%e7%9c%a0/",
+            "name": "失眠 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e5%a4%b1%e7%9c%a0/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e5%a4%b1%e7%9c%a0/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2023/05/pexels-pixabay-271897.jpg",
+            "breadcrumb": {
+              "@id": "/tag/%e5%a4%b1%e7%9c%a0/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e5%a4%b1%e7%9c%a0/#primaryimage",
+            "url": "/wp-content/uploads/2023/05/pexels-pixabay-271897.jpg",
+            "contentUrl": "/wp-content/uploads/2023/05/pexels-pixabay-271897.jpg",
+            "width": 640,
+            "height": 424,
+            "caption": "失眠症"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e5%a4%b1%e7%9c%a0/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "失眠"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "失眠治療",
+    "name": "失眠治療",
+    "path": "/tag/失眠治療/",
+    "description": "",
+    "seo": {
+      "title": "失眠治療 Archives - 怡然心理治療所",
+      "canonical": "/tag/失眠治療/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "失眠治療 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e5%a4%b1%e7%9c%a0%e6%b2%bb%e7%99%82/",
+            "url": "/tag/%e5%a4%b1%e7%9c%a0%e6%b2%bb%e7%99%82/",
+            "name": "失眠治療 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e5%a4%b1%e7%9c%a0%e6%b2%bb%e7%99%82/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e5%a4%b1%e7%9c%a0%e6%b2%bb%e7%99%82/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2023/05/pexels-pixabay-271897.jpg",
+            "breadcrumb": {
+              "@id": "/tag/%e5%a4%b1%e7%9c%a0%e6%b2%bb%e7%99%82/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e5%a4%b1%e7%9c%a0%e6%b2%bb%e7%99%82/#primaryimage",
+            "url": "/wp-content/uploads/2023/05/pexels-pixabay-271897.jpg",
+            "contentUrl": "/wp-content/uploads/2023/05/pexels-pixabay-271897.jpg",
+            "width": 640,
+            "height": 424,
+            "caption": "失眠症"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e5%a4%b1%e7%9c%a0%e6%b2%bb%e7%99%82/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "失眠治療"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "失眠症",
+    "name": "失眠症",
+    "path": "/tag/失眠症/",
+    "description": "",
+    "seo": {
+      "title": "失眠症 Archives - 怡然心理治療所",
+      "canonical": "/tag/失眠症/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "失眠症 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e5%a4%b1%e7%9c%a0%e7%97%87/",
+            "url": "/tag/%e5%a4%b1%e7%9c%a0%e7%97%87/",
+            "name": "失眠症 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e5%a4%b1%e7%9c%a0%e7%97%87/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e5%a4%b1%e7%9c%a0%e7%97%87/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2023/05/pexels-pixabay-271897.jpg",
+            "breadcrumb": {
+              "@id": "/tag/%e5%a4%b1%e7%9c%a0%e7%97%87/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e5%a4%b1%e7%9c%a0%e7%97%87/#primaryimage",
+            "url": "/wp-content/uploads/2023/05/pexels-pixabay-271897.jpg",
+            "contentUrl": "/wp-content/uploads/2023/05/pexels-pixabay-271897.jpg",
+            "width": 640,
+            "height": 424,
+            "caption": "失眠症"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e5%a4%b1%e7%9c%a0%e7%97%87/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "失眠症"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "婚姻諮商",
+    "name": "婚姻諮商",
+    "path": "/tag/婚姻諮商/",
+    "description": "",
+    "seo": {
+      "title": "婚姻諮商 Archives - 怡然心理治療所",
+      "canonical": "/tag/婚姻諮商/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "婚姻諮商 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e5%a9%9a%e5%a7%bb%e8%ab%ae%e5%95%86/",
+            "url": "/tag/%e5%a9%9a%e5%a7%bb%e8%ab%ae%e5%95%86/",
+            "name": "婚姻諮商 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e5%a9%9a%e5%a7%bb%e8%ab%ae%e5%95%86/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e5%a9%9a%e5%a7%bb%e8%ab%ae%e5%95%86/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2022/05/solution-g257450a45_1920.jpg",
+            "breadcrumb": {
+              "@id": "/tag/%e5%a9%9a%e5%a7%bb%e8%ab%ae%e5%95%86/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e5%a9%9a%e5%a7%bb%e8%ab%ae%e5%95%86/#primaryimage",
+            "url": "/wp-content/uploads/2022/05/solution-g257450a45_1920.jpg",
+            "contentUrl": "/wp-content/uploads/2022/05/solution-g257450a45_1920.jpg",
+            "width": 1920,
+            "height": 1439,
+            "caption": "圖翻攝自pixabay網站"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e5%a9%9a%e5%a7%bb%e8%ab%ae%e5%95%86/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "婚姻諮商"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "家庭諮商",
+    "name": "家庭諮商",
+    "path": "/tag/家庭諮商/",
+    "description": "",
+    "seo": {
+      "title": "家庭諮商 Archives - 怡然心理治療所",
+      "canonical": "/tag/家庭諮商/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "家庭諮商 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e5%ae%b6%e5%ba%ad%e8%ab%ae%e5%95%86/",
+            "url": "/tag/%e5%ae%b6%e5%ba%ad%e8%ab%ae%e5%95%86/",
+            "name": "家庭諮商 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e5%ae%b6%e5%ba%ad%e8%ab%ae%e5%95%86/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e5%ae%b6%e5%ba%ad%e8%ab%ae%e5%95%86/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2023/12/Mom_Dont_Do_That.jpeg",
+            "breadcrumb": {
+              "@id": "/tag/%e5%ae%b6%e5%ba%ad%e8%ab%ae%e5%95%86/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e5%ae%b6%e5%ba%ad%e8%ab%ae%e5%95%86/#primaryimage",
+            "url": "/wp-content/uploads/2023/12/Mom_Dont_Do_That.jpeg",
+            "contentUrl": "/wp-content/uploads/2023/12/Mom_Dont_Do_That.jpeg",
+            "width": 250,
+            "height": 370
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e5%ae%b6%e5%ba%ad%e8%ab%ae%e5%95%86/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "家庭諮商"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "家族諮商",
+    "name": "家族諮商",
+    "path": "/tag/家族諮商/",
+    "description": "",
+    "seo": {
+      "title": "家族諮商 Archives - 怡然心理治療所",
+      "canonical": "/tag/家族諮商/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "家族諮商 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e5%ae%b6%e6%97%8f%e8%ab%ae%e5%95%86/",
+            "url": "/tag/%e5%ae%b6%e6%97%8f%e8%ab%ae%e5%95%86/",
+            "name": "家族諮商 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e5%ae%b6%e6%97%8f%e8%ab%ae%e5%95%86/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e5%ae%b6%e6%97%8f%e8%ab%ae%e5%95%86/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2022/05/solution-g257450a45_1920.jpg",
+            "breadcrumb": {
+              "@id": "/tag/%e5%ae%b6%e6%97%8f%e8%ab%ae%e5%95%86/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e5%ae%b6%e6%97%8f%e8%ab%ae%e5%95%86/#primaryimage",
+            "url": "/wp-content/uploads/2022/05/solution-g257450a45_1920.jpg",
+            "contentUrl": "/wp-content/uploads/2022/05/solution-g257450a45_1920.jpg",
+            "width": 1920,
+            "height": 1439,
+            "caption": "圖翻攝自pixabay網站"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e5%ae%b6%e6%97%8f%e8%ab%ae%e5%95%86/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "家族諮商"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "張景淳-諮商心理師",
+    "name": "張景淳 諮商心理師",
+    "path": "/tag/張景淳-諮商心理師/",
+    "description": "",
+    "seo": {
+      "title": "張景淳 諮商心理師 Archives - 怡然心理治療所",
+      "canonical": "/tag/張景淳-諮商心理師/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "張景淳 諮商心理師 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e5%bc%b5%e6%99%af%e6%b7%b3-%e8%ab%ae%e5%95%86%e5%bf%83%e7%90%86%e5%b8%ab/",
+            "url": "/tag/%e5%bc%b5%e6%99%af%e6%b7%b3-%e8%ab%ae%e5%95%86%e5%bf%83%e7%90%86%e5%b8%ab/",
+            "name": "張景淳 諮商心理師 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e5%bc%b5%e6%99%af%e6%b7%b3-%e8%ab%ae%e5%95%86%e5%bf%83%e7%90%86%e5%b8%ab/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e5%bc%b5%e6%99%af%e6%b7%b3-%e8%ab%ae%e5%95%86%e5%bf%83%e7%90%86%e5%b8%ab/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2026/03/S__293527555.jpg",
+            "breadcrumb": {
+              "@id": "/tag/%e5%bc%b5%e6%99%af%e6%b7%b3-%e8%ab%ae%e5%95%86%e5%bf%83%e7%90%86%e5%b8%ab/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e5%bc%b5%e6%99%af%e6%b7%b3-%e8%ab%ae%e5%95%86%e5%bf%83%e7%90%86%e5%b8%ab/#primaryimage",
+            "url": "/wp-content/uploads/2026/03/S__293527555.jpg",
+            "contentUrl": "/wp-content/uploads/2026/03/S__293527555.jpg",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e5%bc%b5%e6%99%af%e6%b7%b3-%e8%ab%ae%e5%95%86%e5%bf%83%e7%90%86%e5%b8%ab/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "張景淳 諮商心理師"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "心理治療",
+    "name": "心理治療",
+    "path": "/tag/心理治療/",
+    "description": "",
+    "seo": {
+      "title": "心理治療 Archives - 怡然心理治療所",
+      "canonical": "/tag/心理治療/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "心理治療 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e5%bf%83%e7%90%86%e6%b2%bb%e7%99%82/",
+            "url": "/tag/%e5%bf%83%e7%90%86%e6%b2%bb%e7%99%82/",
+            "name": "心理治療 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e5%bf%83%e7%90%86%e6%b2%bb%e7%99%82/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e5%bf%83%e7%90%86%e6%b2%bb%e7%99%82/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2026/01/Gemini_Generated_Image_uwz2guwz2guwz2gu.png",
+            "breadcrumb": {
+              "@id": "/tag/%e5%bf%83%e7%90%86%e6%b2%bb%e7%99%82/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e5%bf%83%e7%90%86%e6%b2%bb%e7%99%82/#primaryimage",
+            "url": "/wp-content/uploads/2026/01/Gemini_Generated_Image_uwz2guwz2guwz2gu.png",
+            "contentUrl": "/wp-content/uploads/2026/01/Gemini_Generated_Image_uwz2guwz2guwz2gu.png",
+            "width": 1024,
+            "height": 1024
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e5%bf%83%e7%90%86%e6%b2%bb%e7%99%82/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "心理治療"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "心理諮商",
+    "name": "心理諮商",
+    "path": "/tag/心理諮商/",
+    "description": "",
+    "seo": {
+      "title": "心理諮商 Archives - 怡然心理治療所",
+      "canonical": "/tag/心理諮商/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "心理諮商 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86/",
+            "url": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86/",
+            "name": "心理諮商 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2026/01/Gemini_Generated_Image_uwz2guwz2guwz2gu.png",
+            "breadcrumb": {
+              "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86/#primaryimage",
+            "url": "/wp-content/uploads/2026/01/Gemini_Generated_Image_uwz2guwz2guwz2gu.png",
+            "contentUrl": "/wp-content/uploads/2026/01/Gemini_Generated_Image_uwz2guwz2guwz2gu.png",
+            "width": 1024,
+            "height": 1024
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "心理諮商"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "心理諮商健保",
+    "name": "心理諮商健保",
+    "path": "/tag/心理諮商健保/",
+    "description": "",
+    "seo": {
+      "title": "心理諮商健保 Archives - 怡然心理治療所",
+      "canonical": "/tag/心理諮商健保/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "心理諮商健保 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e5%81%a5%e4%bf%9d/",
+            "url": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e5%81%a5%e4%bf%9d/",
+            "name": "心理諮商健保 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e5%81%a5%e4%bf%9d/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e5%81%a5%e4%bf%9d/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2022/04/心理諮商.jpg",
+            "breadcrumb": {
+              "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e5%81%a5%e4%bf%9d/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e5%81%a5%e4%bf%9d/#primaryimage",
+            "url": "/wp-content/uploads/2022/04/心理諮商.jpg",
+            "contentUrl": "/wp-content/uploads/2022/04/心理諮商.jpg",
+            "width": 640,
+            "height": 427,
+            "caption": "台中心理諮商費用怎麼算?值得這費用嗎?"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e5%81%a5%e4%bf%9d/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "心理諮商健保"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "心理諮商師",
+    "name": "心理諮商師",
+    "path": "/tag/心理諮商師/",
+    "description": "",
+    "seo": {
+      "title": "心理諮商師 Archives - 怡然心理治療所",
+      "canonical": "/tag/心理諮商師/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "心理諮商師 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e5%b8%ab/",
+            "url": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e5%b8%ab/",
+            "name": "心理諮商師 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e5%b8%ab/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e5%b8%ab/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2022/06/consulting-gc43420cb7_640.jpg",
+            "breadcrumb": {
+              "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e5%b8%ab/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e5%b8%ab/#primaryimage",
+            "url": "/wp-content/uploads/2022/06/consulting-gc43420cb7_640.jpg",
+            "contentUrl": "/wp-content/uploads/2022/06/consulting-gc43420cb7_640.jpg",
+            "width": 640,
+            "height": 479,
+            "caption": "心理諮商有用嗎"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e5%b8%ab/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "心理諮商師"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "心理諮商收費",
+    "name": "心理諮商收費",
+    "path": "/tag/心理諮商收費/",
+    "description": "",
+    "seo": {
+      "title": "心理諮商收費 Archives - 怡然心理治療所",
+      "canonical": "/tag/心理諮商收費/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "心理諮商收費 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e6%94%b6%e8%b2%bb/",
+            "url": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e6%94%b6%e8%b2%bb/",
+            "name": "心理諮商收費 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e6%94%b6%e8%b2%bb/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e6%94%b6%e8%b2%bb/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2022/04/心理諮商.jpg",
+            "breadcrumb": {
+              "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e6%94%b6%e8%b2%bb/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e6%94%b6%e8%b2%bb/#primaryimage",
+            "url": "/wp-content/uploads/2022/04/心理諮商.jpg",
+            "contentUrl": "/wp-content/uploads/2022/04/心理諮商.jpg",
+            "width": 640,
+            "height": 427,
+            "caption": "台中心理諮商費用怎麼算?值得這費用嗎?"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e6%94%b6%e8%b2%bb/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "心理諮商收費"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "心理諮商費用",
+    "name": "心理諮商費用",
+    "path": "/tag/心理諮商費用/",
+    "description": "",
+    "seo": {
+      "title": "心理諮商費用 Archives - 怡然心理治療所",
+      "canonical": "/tag/心理諮商費用/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "心理諮商費用 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e8%b2%bb%e7%94%a8/",
+            "url": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e8%b2%bb%e7%94%a8/",
+            "name": "心理諮商費用 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e8%b2%bb%e7%94%a8/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e8%b2%bb%e7%94%a8/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2022/04/心理諮商.jpg",
+            "breadcrumb": {
+              "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e8%b2%bb%e7%94%a8/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e8%b2%bb%e7%94%a8/#primaryimage",
+            "url": "/wp-content/uploads/2022/04/心理諮商.jpg",
+            "contentUrl": "/wp-content/uploads/2022/04/心理諮商.jpg",
+            "width": 640,
+            "height": 427,
+            "caption": "台中心理諮商費用怎麼算?值得這費用嗎?"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e5%95%86%e8%b2%bb%e7%94%a8/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "心理諮商費用"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "心理諮詢",
+    "name": "心理諮詢",
+    "path": "/tag/心理諮詢/",
+    "description": "",
+    "seo": {
+      "title": "心理諮詢 Archives - 怡然心理治療所",
+      "canonical": "/tag/心理諮詢/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "心理諮詢 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e8%a9%a2/",
+            "url": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e8%a9%a2/",
+            "name": "心理諮詢 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e8%a9%a2/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e8%a9%a2/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2024/08/anxiety-attack.jpg",
+            "breadcrumb": {
+              "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e8%a9%a2/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e8%a9%a2/#primaryimage",
+            "url": "/wp-content/uploads/2024/08/anxiety-attack.jpg",
+            "contentUrl": "/wp-content/uploads/2024/08/anxiety-attack.jpg",
+            "width": 640,
+            "height": 427,
+            "caption": "焦慮症發作怎麼辦？"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e5%bf%83%e7%90%86%e8%ab%ae%e8%a9%a2/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "心理諮詢"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "憂鬱症",
+    "name": "憂鬱症",
+    "path": "/tag/憂鬱症/",
+    "description": "",
+    "seo": {
+      "title": "憂鬱症 Archives - 怡然心理治療所",
+      "canonical": "/tag/憂鬱症/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "憂鬱症 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87/",
+            "url": "/tag/%e6%86%82%e9%ac%b1%e7%97%87/",
+            "name": "憂鬱症 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2024/02/內容重寫器-6.jpg",
+            "breadcrumb": {
+              "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87/#primaryimage",
+            "url": "/wp-content/uploads/2024/02/內容重寫器-6.jpg",
+            "contentUrl": "/wp-content/uploads/2024/02/內容重寫器-6.jpg",
+            "width": 793,
+            "height": 525,
+            "caption": "憂鬱症自救"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "憂鬱症"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "憂鬱症原因",
+    "name": "憂鬱症原因",
+    "path": "/tag/憂鬱症原因/",
+    "description": "",
+    "seo": {
+      "title": "憂鬱症原因 Archives - 怡然心理治療所",
+      "canonical": "/tag/憂鬱症原因/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "憂鬱症原因 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e5%8e%9f%e5%9b%a0/",
+            "url": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e5%8e%9f%e5%9b%a0/",
+            "name": "憂鬱症原因 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e5%8e%9f%e5%9b%a0/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e5%8e%9f%e5%9b%a0/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2023/01/pexels-inzmam-khan-1134204.jpg",
+            "breadcrumb": {
+              "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e5%8e%9f%e5%9b%a0/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e5%8e%9f%e5%9b%a0/#primaryimage",
+            "url": "/wp-content/uploads/2023/01/pexels-inzmam-khan-1134204.jpg",
+            "contentUrl": "/wp-content/uploads/2023/01/pexels-inzmam-khan-1134204.jpg",
+            "width": 640,
+            "height": 441,
+            "caption": "憂鬱症"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e5%8e%9f%e5%9b%a0/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "憂鬱症原因"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "憂鬱症治療",
+    "name": "憂鬱症治療",
+    "path": "/tag/憂鬱症治療/",
+    "description": "",
+    "seo": {
+      "title": "憂鬱症治療 Archives - 怡然心理治療所",
+      "canonical": "/tag/憂鬱症治療/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "憂鬱症治療 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e6%b2%bb%e7%99%82/",
+            "url": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e6%b2%bb%e7%99%82/",
+            "name": "憂鬱症治療 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e6%b2%bb%e7%99%82/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e6%b2%bb%e7%99%82/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2023/01/pexels-inzmam-khan-1134204.jpg",
+            "breadcrumb": {
+              "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e6%b2%bb%e7%99%82/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e6%b2%bb%e7%99%82/#primaryimage",
+            "url": "/wp-content/uploads/2023/01/pexels-inzmam-khan-1134204.jpg",
+            "contentUrl": "/wp-content/uploads/2023/01/pexels-inzmam-khan-1134204.jpg",
+            "width": 640,
+            "height": 441,
+            "caption": "憂鬱症"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e6%b2%bb%e7%99%82/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "憂鬱症治療"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "憂鬱症症狀",
+    "name": "憂鬱症症狀",
+    "path": "/tag/憂鬱症症狀/",
+    "description": "",
+    "seo": {
+      "title": "憂鬱症症狀 Archives - 怡然心理治療所",
+      "canonical": "/tag/憂鬱症症狀/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "憂鬱症症狀 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e7%97%87%e7%8b%80/",
+            "url": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e7%97%87%e7%8b%80/",
+            "name": "憂鬱症症狀 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e7%97%87%e7%8b%80/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e7%97%87%e7%8b%80/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2023/01/pexels-inzmam-khan-1134204.jpg",
+            "breadcrumb": {
+              "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e7%97%87%e7%8b%80/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e7%97%87%e7%8b%80/#primaryimage",
+            "url": "/wp-content/uploads/2023/01/pexels-inzmam-khan-1134204.jpg",
+            "contentUrl": "/wp-content/uploads/2023/01/pexels-inzmam-khan-1134204.jpg",
+            "width": 640,
+            "height": 441,
+            "caption": "憂鬱症"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e7%97%87%e7%8b%80/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "憂鬱症症狀"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "憂鬱症自救",
+    "name": "憂鬱症自救",
+    "path": "/tag/憂鬱症自救/",
+    "description": "",
+    "seo": {
+      "title": "憂鬱症自救 Archives - 怡然心理治療所",
+      "canonical": "/tag/憂鬱症自救/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "憂鬱症自救 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e8%87%aa%e6%95%91/",
+            "url": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e8%87%aa%e6%95%91/",
+            "name": "憂鬱症自救 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e8%87%aa%e6%95%91/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e8%87%aa%e6%95%91/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2024/02/內容重寫器-6.jpg",
+            "breadcrumb": {
+              "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e8%87%aa%e6%95%91/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e8%87%aa%e6%95%91/#primaryimage",
+            "url": "/wp-content/uploads/2024/02/內容重寫器-6.jpg",
+            "contentUrl": "/wp-content/uploads/2024/02/內容重寫器-6.jpg",
+            "width": 793,
+            "height": 525,
+            "caption": "憂鬱症自救"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e8%87%aa%e6%95%91/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "憂鬱症自救"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "憂鬱症自癒",
+    "name": "憂鬱症自癒",
+    "path": "/tag/憂鬱症自癒/",
+    "description": "",
+    "seo": {
+      "title": "憂鬱症自癒 Archives - 怡然心理治療所",
+      "canonical": "/tag/憂鬱症自癒/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "憂鬱症自癒 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e8%87%aa%e7%99%92/",
+            "url": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e8%87%aa%e7%99%92/",
+            "name": "憂鬱症自癒 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e8%87%aa%e7%99%92/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e8%87%aa%e7%99%92/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2024/02/內容重寫器-6.jpg",
+            "breadcrumb": {
+              "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e8%87%aa%e7%99%92/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e8%87%aa%e7%99%92/#primaryimage",
+            "url": "/wp-content/uploads/2024/02/內容重寫器-6.jpg",
+            "contentUrl": "/wp-content/uploads/2024/02/內容重寫器-6.jpg",
+            "width": 793,
+            "height": 525,
+            "caption": "憂鬱症自救"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e6%86%82%e9%ac%b1%e7%97%87%e8%87%aa%e7%99%92/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "憂鬱症自癒"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "收假症候群",
+    "name": "收假症候群",
+    "path": "/tag/收假症候群/",
+    "description": "",
+    "seo": {
+      "title": "收假症候群 Archives - 怡然心理治療所",
+      "canonical": "/tag/收假症候群/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "收假症候群 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e6%94%b6%e5%81%87%e7%97%87%e5%80%99%e7%be%a4/",
+            "url": "/tag/%e6%94%b6%e5%81%87%e7%97%87%e5%80%99%e7%be%a4/",
+            "name": "收假症候群 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e6%94%b6%e5%81%87%e7%97%87%e5%80%99%e7%be%a4/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e6%94%b6%e5%81%87%e7%97%87%e5%80%99%e7%be%a4/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2022/09/429307.jpg",
+            "breadcrumb": {
+              "@id": "/tag/%e6%94%b6%e5%81%87%e7%97%87%e5%80%99%e7%be%a4/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e6%94%b6%e5%81%87%e7%97%87%e5%80%99%e7%be%a4/#primaryimage",
+            "url": "/wp-content/uploads/2022/09/429307.jpg",
+            "contentUrl": "/wp-content/uploads/2022/09/429307.jpg",
+            "width": 1706,
+            "height": 960
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e6%94%b6%e5%81%87%e7%97%87%e5%80%99%e7%be%a4/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "收假症候群"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "林孜嶸-臨床心理師",
+    "name": "林孜嶸 臨床心理師",
+    "path": "/tag/林孜嶸-臨床心理師/",
+    "description": "",
+    "seo": {
+      "title": "林孜嶸 臨床心理師 Archives - 怡然心理治療所",
+      "canonical": "/tag/林孜嶸-臨床心理師/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "林孜嶸 臨床心理師 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e6%9e%97%e5%ad%9c%e5%b6%b8-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/",
+            "url": "/tag/%e6%9e%97%e5%ad%9c%e5%b6%b8-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/",
+            "name": "林孜嶸 臨床心理師 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e6%9e%97%e5%ad%9c%e5%b6%b8-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e6%9e%97%e5%ad%9c%e5%b6%b8-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2022/07/resilient-gfc6fded8a_1920.jpg",
+            "breadcrumb": {
+              "@id": "/tag/%e6%9e%97%e5%ad%9c%e5%b6%b8-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e6%9e%97%e5%ad%9c%e5%b6%b8-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/#primaryimage",
+            "url": "/wp-content/uploads/2022/07/resilient-gfc6fded8a_1920.jpg",
+            "contentUrl": "/wp-content/uploads/2022/07/resilient-gfc6fded8a_1920.jpg",
+            "width": 1920,
+            "height": 1275
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e6%9e%97%e5%ad%9c%e5%b6%b8-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "林孜嶸 臨床心理師"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "林榮哲-臨床心理師",
+    "name": "林榮哲 臨床心理師",
+    "path": "/tag/林榮哲-臨床心理師/",
+    "description": "",
+    "seo": {
+      "title": "林榮哲 臨床心理師 Archives - 怡然心理治療所",
+      "canonical": "/tag/林榮哲-臨床心理師/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "林榮哲 臨床心理師 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e6%9e%97%e6%a6%ae%e5%93%b2-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/",
+            "url": "/tag/%e6%9e%97%e6%a6%ae%e5%93%b2-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/",
+            "name": "林榮哲 臨床心理師 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e6%9e%97%e6%a6%ae%e5%93%b2-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e6%9e%97%e6%a6%ae%e5%93%b2-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2024/05/S__19177699.jpg",
+            "breadcrumb": {
+              "@id": "/tag/%e6%9e%97%e6%a6%ae%e5%93%b2-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e6%9e%97%e6%a6%ae%e5%93%b2-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/#primaryimage",
+            "url": "/wp-content/uploads/2024/05/S__19177699.jpg",
+            "contentUrl": "/wp-content/uploads/2024/05/S__19177699.jpg",
+            "width": 1004,
+            "height": 1225
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e6%9e%97%e6%a6%ae%e5%93%b2-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "林榮哲 臨床心理師"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "楊雅清-臨床心理師",
+    "name": "楊雅清 臨床心理師",
+    "path": "/tag/楊雅清-臨床心理師/",
+    "description": "",
+    "seo": {
+      "title": "楊雅清 臨床心理師 Archives - 怡然心理治療所",
+      "canonical": "/tag/楊雅清-臨床心理師/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "楊雅清 臨床心理師 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e6%a5%8a%e9%9b%85%e6%b8%85-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/",
+            "url": "/tag/%e6%a5%8a%e9%9b%85%e6%b8%85-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/",
+            "name": "楊雅清 臨床心理師 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e6%a5%8a%e9%9b%85%e6%b8%85-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e6%a5%8a%e9%9b%85%e6%b8%85-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2022/02/Minimalist-orange-serious-cat-with-are-you-serious-message-instagram-post.jpg",
+            "breadcrumb": {
+              "@id": "/tag/%e6%a5%8a%e9%9b%85%e6%b8%85-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e6%a5%8a%e9%9b%85%e6%b8%85-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/#primaryimage",
+            "url": "/wp-content/uploads/2022/02/Minimalist-orange-serious-cat-with-are-you-serious-message-instagram-post.jpg",
+            "contentUrl": "/wp-content/uploads/2022/02/Minimalist-orange-serious-cat-with-are-you-serious-message-instagram-post.jpg",
+            "width": 1080,
+            "height": 1080
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e6%a5%8a%e9%9b%85%e6%b8%85-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "楊雅清 臨床心理師"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "楊雅清-臨床心理師-2",
+    "name": "楊雅清 臨床心理師",
+    "path": "/tag/楊雅清-臨床心理師-2/",
+    "description": "",
+    "seo": {
+      "title": "楊雅清 臨床心理師 Archives - 怡然心理治療所",
+      "canonical": "/tag/楊雅清-臨床心理師-2/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "楊雅清 臨床心理師 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e6%a5%8a%e9%9b%85%e6%b8%85-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab-2/",
+            "url": "/tag/%e6%a5%8a%e9%9b%85%e6%b8%85-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab-2/",
+            "name": "楊雅清 臨床心理師 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e6%a5%8a%e9%9b%85%e6%b8%85-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab-2/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e6%a5%8a%e9%9b%85%e6%b8%85-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab-2/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2020/04/tunnel-4856896_960_720.jpg",
+            "breadcrumb": {
+              "@id": "/tag/%e6%a5%8a%e9%9b%85%e6%b8%85-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab-2/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e6%a5%8a%e9%9b%85%e6%b8%85-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab-2/#primaryimage",
+            "url": "/wp-content/uploads/2020/04/tunnel-4856896_960_720.jpg",
+            "contentUrl": "/wp-content/uploads/2020/04/tunnel-4856896_960_720.jpg",
+            "width": 960,
+            "height": 641
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e6%a5%8a%e9%9b%85%e6%b8%85-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab-2/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "楊雅清 臨床心理師"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "江信男-臨床心理師",
+    "name": "江信男 臨床心理師",
+    "path": "/tag/江信男-臨床心理師/",
+    "description": "",
+    "seo": {
+      "title": "江信男 臨床心理師 Archives - 怡然心理治療所",
+      "canonical": "/tag/江信男-臨床心理師/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "江信男 臨床心理師 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e6%b1%9f%e4%bf%a1%e7%94%b7-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/",
+            "url": "/tag/%e6%b1%9f%e4%bf%a1%e7%94%b7-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/",
+            "name": "江信男 臨床心理師 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e6%b1%9f%e4%bf%a1%e7%94%b7-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e6%b1%9f%e4%bf%a1%e7%94%b7-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2021/05/alzheimers-3034960_1920.jpg",
+            "breadcrumb": {
+              "@id": "/tag/%e6%b1%9f%e4%bf%a1%e7%94%b7-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e6%b1%9f%e4%bf%a1%e7%94%b7-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/#primaryimage",
+            "url": "/wp-content/uploads/2021/05/alzheimers-3034960_1920.jpg",
+            "contentUrl": "/wp-content/uploads/2021/05/alzheimers-3034960_1920.jpg",
+            "width": 1920,
+            "height": 904,
+            "caption": "圖/翻攝自pixabay網站"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e6%b1%9f%e4%bf%a1%e7%94%b7-%e8%87%a8%e5%ba%8a%e5%bf%83%e7%90%86%e5%b8%ab/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "江信男 臨床心理師"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "焦慮症",
+    "name": "焦慮症",
+    "path": "/tag/焦慮症/",
+    "description": "",
+    "seo": {
+      "title": "焦慮症 Archives - 怡然心理治療所",
+      "canonical": "/tag/焦慮症/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "焦慮症 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e7%84%a6%e6%85%ae%e7%97%87/",
+            "url": "/tag/%e7%84%a6%e6%85%ae%e7%97%87/",
+            "name": "焦慮症 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e7%84%a6%e6%85%ae%e7%97%87/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e7%84%a6%e6%85%ae%e7%97%87/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2024/08/anxiety-attack.jpg",
+            "breadcrumb": {
+              "@id": "/tag/%e7%84%a6%e6%85%ae%e7%97%87/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e7%84%a6%e6%85%ae%e7%97%87/#primaryimage",
+            "url": "/wp-content/uploads/2024/08/anxiety-attack.jpg",
+            "contentUrl": "/wp-content/uploads/2024/08/anxiety-attack.jpg",
+            "width": 640,
+            "height": 427,
+            "caption": "焦慮症發作怎麼辦？"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e7%84%a6%e6%85%ae%e7%97%87/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "焦慮症"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "焦慮症症狀",
+    "name": "焦慮症症狀",
+    "path": "/tag/焦慮症症狀/",
+    "description": "",
+    "seo": {
+      "title": "焦慮症症狀 Archives - 怡然心理治療所",
+      "canonical": "/tag/焦慮症症狀/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "焦慮症症狀 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e7%84%a6%e6%85%ae%e7%97%87%e7%97%87%e7%8b%80/",
+            "url": "/tag/%e7%84%a6%e6%85%ae%e7%97%87%e7%97%87%e7%8b%80/",
+            "name": "焦慮症症狀 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e7%84%a6%e6%85%ae%e7%97%87%e7%97%87%e7%8b%80/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e7%84%a6%e6%85%ae%e7%97%87%e7%97%87%e7%8b%80/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2024/08/anxiety-attack.jpg",
+            "breadcrumb": {
+              "@id": "/tag/%e7%84%a6%e6%85%ae%e7%97%87%e7%97%87%e7%8b%80/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e7%84%a6%e6%85%ae%e7%97%87%e7%97%87%e7%8b%80/#primaryimage",
+            "url": "/wp-content/uploads/2024/08/anxiety-attack.jpg",
+            "contentUrl": "/wp-content/uploads/2024/08/anxiety-attack.jpg",
+            "width": 640,
+            "height": 427,
+            "caption": "焦慮症發作怎麼辦？"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e7%84%a6%e6%85%ae%e7%97%87%e7%97%87%e7%8b%80/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "焦慮症症狀"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "網路成癮",
+    "name": "網路成癮",
+    "path": "/tag/網路成癮/",
+    "description": "",
+    "seo": {
+      "title": "網路成癮 Archives - 怡然心理治療所",
+      "canonical": "/tag/網路成癮/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "網路成癮 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e7%b6%b2%e8%b7%af%e6%88%90%e7%99%ae/",
+            "url": "/tag/%e7%b6%b2%e8%b7%af%e6%88%90%e7%99%ae/",
+            "name": "網路成癮 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e7%b6%b2%e8%b7%af%e6%88%90%e7%99%ae/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e7%b6%b2%e8%b7%af%e6%88%90%e7%99%ae/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2026/01/internet-addiction-disorder.png",
+            "breadcrumb": {
+              "@id": "/tag/%e7%b6%b2%e8%b7%af%e6%88%90%e7%99%ae/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e7%b6%b2%e8%b7%af%e6%88%90%e7%99%ae/#primaryimage",
+            "url": "/wp-content/uploads/2026/01/internet-addiction-disorder.png",
+            "contentUrl": "/wp-content/uploads/2026/01/internet-addiction-disorder.png",
+            "width": 640,
+            "height": 427,
+            "caption": "網路成癮 網癮 網路成癮症狀 網路成癮的原因 網路成癮解決方法 網路成癮量表"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e7%b6%b2%e8%b7%af%e6%88%90%e7%99%ae/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "網路成癮"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "網路成癮帳狀",
+    "name": "網路成癮帳狀",
+    "path": "/tag/網路成癮帳狀/",
+    "description": "",
+    "seo": {
+      "title": "網路成癮帳狀 Archives - 怡然心理治療所",
+      "canonical": "/tag/網路成癮帳狀/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "網路成癮帳狀 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e7%b6%b2%e8%b7%af%e6%88%90%e7%99%ae%e5%b8%b3%e7%8b%80/",
+            "url": "/tag/%e7%b6%b2%e8%b7%af%e6%88%90%e7%99%ae%e5%b8%b3%e7%8b%80/",
+            "name": "網路成癮帳狀 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e7%b6%b2%e8%b7%af%e6%88%90%e7%99%ae%e5%b8%b3%e7%8b%80/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e7%b6%b2%e8%b7%af%e6%88%90%e7%99%ae%e5%b8%b3%e7%8b%80/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2026/01/internet-addiction-disorder.png",
+            "breadcrumb": {
+              "@id": "/tag/%e7%b6%b2%e8%b7%af%e6%88%90%e7%99%ae%e5%b8%b3%e7%8b%80/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e7%b6%b2%e8%b7%af%e6%88%90%e7%99%ae%e5%b8%b3%e7%8b%80/#primaryimage",
+            "url": "/wp-content/uploads/2026/01/internet-addiction-disorder.png",
+            "contentUrl": "/wp-content/uploads/2026/01/internet-addiction-disorder.png",
+            "width": 640,
+            "height": 427,
+            "caption": "網路成癮 網癮 網路成癮症狀 網路成癮的原因 網路成癮解決方法 網路成癮量表"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e7%b6%b2%e8%b7%af%e6%88%90%e7%99%ae%e5%b8%b3%e7%8b%80/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "網路成癮帳狀"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "莊慧琳-諮商心理師",
+    "name": "莊慧琳 諮商心理師",
+    "path": "/tag/莊慧琳-諮商心理師/",
+    "description": "",
+    "seo": {
+      "title": "莊慧琳 諮商心理師 Archives - 怡然心理治療所",
+      "canonical": "/tag/莊慧琳-諮商心理師/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "莊慧琳 諮商心理師 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e8%8e%8a%e6%85%a7%e7%90%b3-%e8%ab%ae%e5%95%86%e5%bf%83%e7%90%86%e5%b8%ab/",
+            "url": "/tag/%e8%8e%8a%e6%85%a7%e7%90%b3-%e8%ab%ae%e5%95%86%e5%bf%83%e7%90%86%e5%b8%ab/",
+            "name": "莊慧琳 諮商心理師 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e8%8e%8a%e6%85%a7%e7%90%b3-%e8%ab%ae%e5%95%86%e5%bf%83%e7%90%86%e5%b8%ab/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e8%8e%8a%e6%85%a7%e7%90%b3-%e8%ab%ae%e5%95%86%e5%bf%83%e7%90%86%e5%b8%ab/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2020/10/F5677538-9606-4405-9A6A-3CF7DF7A74AC.jpeg",
+            "breadcrumb": {
+              "@id": "/tag/%e8%8e%8a%e6%85%a7%e7%90%b3-%e8%ab%ae%e5%95%86%e5%bf%83%e7%90%86%e5%b8%ab/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e8%8e%8a%e6%85%a7%e7%90%b3-%e8%ab%ae%e5%95%86%e5%bf%83%e7%90%86%e5%b8%ab/#primaryimage",
+            "url": "/wp-content/uploads/2020/10/F5677538-9606-4405-9A6A-3CF7DF7A74AC.jpeg",
+            "contentUrl": "/wp-content/uploads/2020/10/F5677538-9606-4405-9A6A-3CF7DF7A74AC.jpeg",
+            "width": 1920,
+            "height": 1116,
+            "caption": "圖翻攝自pixabay網站"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e8%8e%8a%e6%85%a7%e7%90%b3-%e8%ab%ae%e5%95%86%e5%bf%83%e7%90%86%e5%b8%ab/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "莊慧琳 諮商心理師"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "親密關係",
+    "name": "親密關係",
+    "path": "/tag/親密關係/",
+    "description": "",
+    "seo": {
+      "title": "親密關係 Archives - 怡然心理治療所",
+      "canonical": "/tag/親密關係/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "親密關係 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e8%a6%aa%e5%af%86%e9%97%9c%e4%bf%82/",
+            "url": "/tag/%e8%a6%aa%e5%af%86%e9%97%9c%e4%bf%82/",
+            "name": "親密關係 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e8%a6%aa%e5%af%86%e9%97%9c%e4%bf%82/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e8%a6%aa%e5%af%86%e9%97%9c%e4%bf%82/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2022/05/solution-g257450a45_1920.jpg",
+            "breadcrumb": {
+              "@id": "/tag/%e8%a6%aa%e5%af%86%e9%97%9c%e4%bf%82/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e8%a6%aa%e5%af%86%e9%97%9c%e4%bf%82/#primaryimage",
+            "url": "/wp-content/uploads/2022/05/solution-g257450a45_1920.jpg",
+            "contentUrl": "/wp-content/uploads/2022/05/solution-g257450a45_1920.jpg",
+            "width": 1920,
+            "height": 1439,
+            "caption": "圖翻攝自pixabay網站"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e8%a6%aa%e5%af%86%e9%97%9c%e4%bf%82/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "親密關係"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "陪伴憂鬱症",
+    "name": "陪伴憂鬱症",
+    "path": "/tag/陪伴憂鬱症/",
+    "description": "",
+    "seo": {
+      "title": "陪伴憂鬱症 Archives - 怡然心理治療所",
+      "canonical": "/tag/陪伴憂鬱症/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "陪伴憂鬱症 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e9%99%aa%e4%bc%b4%e6%86%82%e9%ac%b1%e7%97%87/",
+            "url": "/tag/%e9%99%aa%e4%bc%b4%e6%86%82%e9%ac%b1%e7%97%87/",
+            "name": "陪伴憂鬱症 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e9%99%aa%e4%bc%b4%e6%86%82%e9%ac%b1%e7%97%87/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e9%99%aa%e4%bc%b4%e6%86%82%e9%ac%b1%e7%97%87/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2024/02/內容重寫器-6.jpg",
+            "breadcrumb": {
+              "@id": "/tag/%e9%99%aa%e4%bc%b4%e6%86%82%e9%ac%b1%e7%97%87/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e9%99%aa%e4%bc%b4%e6%86%82%e9%ac%b1%e7%97%87/#primaryimage",
+            "url": "/wp-content/uploads/2024/02/內容重寫器-6.jpg",
+            "contentUrl": "/wp-content/uploads/2024/02/內容重寫器-6.jpg",
+            "width": 793,
+            "height": 525,
+            "caption": "憂鬱症自救"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e9%99%aa%e4%bc%b4%e6%86%82%e9%ac%b1%e7%97%87/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "陪伴憂鬱症"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "霸凌",
+    "name": "霸凌",
+    "path": "/tag/霸凌/",
+    "description": "",
+    "seo": {
+      "title": "霸凌 Archives - 怡然心理治療所",
+      "canonical": "/tag/霸凌/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "霸凌 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e9%9c%b8%e5%87%8c/",
+            "url": "/tag/%e9%9c%b8%e5%87%8c/",
+            "name": "霸凌 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e9%9c%b8%e5%87%8c/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e9%9c%b8%e5%87%8c/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2020/03/48A19053-DF32-429C-83B8-C3A9C3E9D37D.jpeg",
+            "breadcrumb": {
+              "@id": "/tag/%e9%9c%b8%e5%87%8c/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e9%9c%b8%e5%87%8c/#primaryimage",
+            "url": "/wp-content/uploads/2020/03/48A19053-DF32-429C-83B8-C3A9C3E9D37D.jpeg",
+            "contentUrl": "/wp-content/uploads/2020/03/48A19053-DF32-429C-83B8-C3A9C3E9D37D.jpeg",
+            "width": 1920,
+            "height": 1242
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e9%9c%b8%e5%87%8c/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "霸凌"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "霸凌後遺症",
+    "name": "霸凌後遺症",
+    "path": "/tag/霸凌後遺症/",
+    "description": "",
+    "seo": {
+      "title": "霸凌後遺症 Archives - 怡然心理治療所",
+      "canonical": "/tag/霸凌後遺症/",
+      "description": "怡然是台中的心理治療所，服務項目有心理諮商、親密關係、諮商課程、員工協助方案等。服務對象包括：兒童與青少年、親子、成人、職場、身心疾病患者等，具體提供「心理治療與諮商（會談）、心理評估與衡鑑、團體課程、企業內訓、員工服務方案」等多元服務，也有合作的醫院、身心科診所，能提供醫藥轉介服務。來電預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "article",
+      "ogTitle": "霸凌後遺症 Archives - 怡然心理治療所",
+      "ogImage": "/wp-content/uploads/2020/03/1583572684209.jpg",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "CollectionPage",
+            "@id": "/tag/%e9%9c%b8%e5%87%8c%e5%be%8c%e9%81%ba%e7%97%87/",
+            "url": "/tag/%e9%9c%b8%e5%87%8c%e5%be%8c%e9%81%ba%e7%97%87/",
+            "name": "霸凌後遺症 Archives - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "/tag/%e9%9c%b8%e5%87%8c%e5%be%8c%e9%81%ba%e7%97%87/#primaryimage"
+            },
+            "image": {
+              "@id": "/tag/%e9%9c%b8%e5%87%8c%e5%be%8c%e9%81%ba%e7%97%87/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2020/03/48A19053-DF32-429C-83B8-C3A9C3E9D37D.jpeg",
+            "breadcrumb": {
+              "@id": "/tag/%e9%9c%b8%e5%87%8c%e5%be%8c%e9%81%ba%e7%97%87/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/tag/%e9%9c%b8%e5%87%8c%e5%be%8c%e9%81%ba%e7%97%87/#primaryimage",
+            "url": "/wp-content/uploads/2020/03/48A19053-DF32-429C-83B8-C3A9C3E9D37D.jpeg",
+            "contentUrl": "/wp-content/uploads/2020/03/48A19053-DF32-429C-83B8-C3A9C3E9D37D.jpeg",
+            "width": 1920,
+            "height": 1242
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/tag/%e9%9c%b8%e5%87%8c%e5%be%8c%e9%81%ba%e7%97%87/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "霸凌後遺症"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      }
+    }
+  }
+]
