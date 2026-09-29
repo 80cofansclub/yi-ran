@@ -302,17 +302,19 @@ ${afterWrap.map((_, e) => $s.html(e)).get().join('\n')}
     for (const p of raw[type]) {
       const urlPath = decodeURIComponent(new URL(p.link).pathname);
       const file = pathToHtmlFile(urlPath);
-      let seo = {}, bodyClass = '';
+      let seo = {}, bodyClass = '', pageContent = null;
       if (fss.existsSync(file)) {
         const $ = load(file);
         seo = JSON.parse(localize(JSON.stringify(extractSeo($))));
         bodyClass = $('body').attr('class');
+        // 內文以原站「頁面上實際輸出」的為準（圖片的 fetchpriority/lazy 等屬性與 API 版本不同）
+        pageContent = $('.elementor-widget-theme-post-content > .elementor-widget-container').html()?.trim() || null;
       }
       const m = mediaById.get(p.featured_media);
       const $c = cheerio.load(p.content.rendered, null, false);
       $c('#ez-toc-container, script, style').remove(); // 摘要不含文章目錄
       const text = $c.root().text().replace(/\s+/g, ' ').trim();
-      await write(path.join(ROOT, 'content/posts', `${p.id}.html`), localize(p.content.rendered.trim()) + '\n');
+      await write(path.join(ROOT, 'content/posts', `${p.id}.html`), localize(pageContent ?? p.content.rendered.trim()) + '\n');
       posts.push({
         id: p.id,
         type,
