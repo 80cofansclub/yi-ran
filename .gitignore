@@ -6,3 +6,10 @@ _export/
 docs/report.html
 # 本機預覽設定
 .claude/
+# 每月 SEO 健檢與規劃報告（只留本機）
+docs/seo-*.html
+# 金鑰、密碼等機密檔案（絕不進 Public repo）
+/docs/recaptcha.txt
+/secrets/
+*.secret
+*.key.txt

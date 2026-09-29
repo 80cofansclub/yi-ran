@@ -67,6 +67,8 @@ function seoHead(seo = {}, urlPath, fallbackTitle) {
   if (seo.ogDescription) m.push(`<meta property="og:description" content="${esc(seo.ogDescription)}">`);
   m.push(`<meta property="og:url" content="${url}">`);
   m.push(`<meta property="og:site_name" content="${esc(site.siteName)}">`);
+  // 原站這裡指向廠商的 FB 粉專，改為診所自己的粉專（data/site.json 的 facebookPage）
+  if (site.facebookPage) m.push(`<meta property="article:publisher" content="${esc(site.facebookPage)}">`);
   if (seo.publishedTime) m.push(`<meta property="article:published_time" content="${esc(seo.publishedTime)}">`);
   if (seo.modifiedTime) m.push(`<meta property="article:modified_time" content="${esc(seo.modifiedTime)}">`);
   if (seo.ogImage) {
@@ -96,7 +98,19 @@ function renderPage({ urlPath, seo, title, bodyClass, header = 'page', popup = f
     header: tpl(header === 'post' ? 'header-post' : 'header-page'),
     popup: popup ? tpl('popup') : '',
     main: expandPostMarkers(main),
-  }).replace(/(<form[^>]*class="mobile-searchform"[^>]*action=")\/(")/, '$1/search/$2');
+  }).replace(/(<form[^>]*class="mobile-searchform"[^>]*action=")\/(")/, '$1/search/$2')
+    .replace(/<script>\(function\(w,d,s,l,i\)\{[\s\S]*?\}\)\(window,document,'script','dataLayer','GTM-[A-Z0-9]+'\);<\/script>/, m => gtmScript(m))
+    .replace(/<noscript><iframe src="https:\/\/www\.googletagmanager\.com\/ns\.html\?id=GTM-[A-Z0-9]+"[\s\S]*?<\/noscript>/, m => (site.gtmId && !BASE) ? m.replace(/GTM-[A-Z0-9]+/, site.gtmId) : '');
+}
+
+// Google Tag Manager：ID 由 data/site.json 的 gtmId 決定（留空＝不載入）。
+// 只在正式網址執行，避免本機測試與 GitHub 預覽網址的瀏覽數據混進 GA；預覽建置（BASE）直接不放。
+function gtmScript(snippet) {
+  if (!site.gtmId || BASE) return '';
+  const host = new URL(site.siteUrl).hostname;
+  return snippet
+    .replace(/GTM-[A-Z0-9]+/, site.gtmId)
+    .replace('<script>(function(w,d,s,l,i){', `<script>if(location.hostname===${JSON.stringify(host)})(function(w,d,s,l,i){`);
 }
 
 // 文章卡片：套用 src/templates/cards/<樣板>.html（各列表沿用原站自己的卡片長相）

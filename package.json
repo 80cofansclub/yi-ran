@@ -7,7 +7,8 @@
     "serve": "node tools/serve.mjs 8080",
     "dev": "node tools/build.mjs && node tools/serve.mjs 8080",
     "check": "node tools/check-sitemap.mjs && node tools/check-seo.mjs",
-    "doctor": "node tools/doctor.mjs"
+    "doctor": "node tools/doctor.mjs",
+    "seo-audit": "node tools/build.mjs && node tools/seo-audit.mjs"
   },
   "author": "",
   "license": "ISC",

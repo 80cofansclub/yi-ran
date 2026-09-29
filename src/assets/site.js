@@ -88,11 +88,22 @@
         .then(function () {
           form.reset();
           showMsg(form, f.successMessage || '已送出，謝謝！', true);
-          if (window.dataLayer) window.dataLayer.push({ event: 'reservation_submit' });
+          (window.dataLayer = window.dataLayer || []).push({ event: 'reservation_submit' });
         })
         .catch(function () { showMsg(form, f.errorMessage || '送出失敗，請改用電話聯繫。', false); })
         .then(function () { if (btn) btn.disabled = false; });
     });
+  }, true);
+
+  // ---------- 1b. 聯絡點擊追蹤（SEO 成效用：電話、Email、Messenger、LINE）----------
+  // 送到 GTM 的 dataLayer，事件名稱 contact_click，參數 contact_method；需在 GTM 建 GA4 事件代碼（見 SEO.md）
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('a[href]');
+    if (!a) return;
+    var href = a.getAttribute('href');
+    var method = /^tel:/.test(href) ? 'phone' : /^mailto:/.test(href) ? 'email'
+      : /\/\/(m\.me|www\.messenger\.com)\//.test(href) ? 'messenger' : /\/\/(line\.me|lin\.ee|page\.line\.me)\//.test(href) ? 'line' : '';
+    if (method) (window.dataLayer = window.dataLayer || []).push({ event: 'contact_click', contact_method: method, page_path: location.pathname });
   }, true);
 
   // ---------- 2. 站內搜尋（讀 /search-index.json）----------

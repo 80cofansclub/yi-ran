@@ -4,6 +4,7 @@
   "lang": "zh-TW",
   "phone": "0905467481",
   "email": "yiran.mind@gmail.com",
+  "facebookPage": "https://www.facebook.com/YiranMind/",
   "gtmId": "GTM-TBLMSTH",
   "form": {
     "_說明": "預約表單送出目標。填入 Google Apps Script / Formspree 等網址；留空則顯示「請來電預約」。見 docs/",
@@ -12,5 +13,6 @@
     "recaptchaSiteKey": "6Ld6DdUtAAAAAJPlGzpPYjkk0Xgv_igecgG63g3m",
     "successMessage": "已收到您的預約資料，我們會盡快與您聯繫。",
     "errorMessage": "送出失敗，請改以電話 0905467481 預約。"
-  }
+  },
+  "_gtmId說明": "Google Tag Manager 容器 ID。目前的 GTM-TBLMSTH 是廠商建立的，換成自己的容器後改這裡；留空＝不載入。見 HANDOVER.md"
 }

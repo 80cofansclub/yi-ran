@@ -56,6 +56,14 @@ npm run dev
 
 > repo 層級的 `git config` **不會**跟著 clone 過來，每台新電腦都要重設（問題紀錄 #20）。
 
+## 其他文件
+
+| 檔案 | 內容 | 何時讀 |
+|---|---|---|
+| `SEO.md` | SEO 自主維運手冊：工具、每月流程、選題、寫文章 SOP、90 天計畫 | 使用者要做 SEO、寫文章、看流量時 |
+| `HANDOVER.md` | 從廠商接回的帳號與服務清單（Cloudflare、主機/郵件、GTM、GA、reCAPTCHA、粉專…） | 處理帳號、DNS、追蹤碼、解約相關事項時 |
+| `README.md` | 給人看的快速說明 | — |
+
 ## 常用指令
 
 ```bash
@@ -64,6 +72,7 @@ npm run dev                 # 建置 + 本機預覽 http://localhost:8080/
 npm run build               # 只建置到 dist/
 npm run check               # 比對 sitemap / SEO 標籤與原站（需要 _export/，見下方）
 npm run doctor              # 環境檢查（只檢查不安裝）
+npm run seo-audit           # 每月 SEO 健檢 → docs/seo-audit.html（只留本機）
 node tools/new-post.mjs 諮商部落 <英文代稱> "<標題>"   # 新增文章草稿（Markdown）
 ```
 
@@ -217,6 +226,22 @@ docs/form-apps-script.gs           預約表單接收（Google 試算表 + Email
   **一定要再觸發一次部署**（Actions → Deploy to GitHub Pages → Run workflow，或推空 commit）。
 - 部署後確認：`curl -s https://yiranmind.com/ | grep -o '<meta name="robots"[^>]*>'` 不能是 noindex。
 - Cloudflare 上指向 GitHub Pages 的記錄保持 **DNS only（灰色雲）**：開 Proxy 可能讓 GitHub 每 90 天續發 HTTPS 憑證失敗。
+
+### #23 GTM／GA 是廠商帳號，且本機測試會把數據送進去
+- 下載 `https://www.googletagmanager.com/gtm.js?id=GTM-TBLMSTH` 分析：容器只有已停用的 UA（`UA-117425930-36`）代碼；`-36` 表示是廠商代管多客戶的帳號。GA4 `G-9BLKFV2RTK` 經 UA 連動收數據。
+- 本機與 GitHub 預覽網址原本也會載入 GTM，送出 `dl=http://localhost/` 的瀏覽紀錄到廠商 GA。
+- **解法**：GTM ID 改由 `data/site.json` 的 `gtmId` 決定（留空＝不載入）；build 把 GTM 片段包成 `if(location.hostname==="yiranmind.com")`，預覽建置直接移除。
+  site.js 的事件改用 `(window.dataLayer = window.dataLayer || []).push(...)`，GTM 沒載入時也不會出錯。
+- 使用者要換成自己的 GTM 容器與 GA4（HANDOVER.md §3、§4）。
+
+### #24 掃描原站找出所有綁在廠商的東西
+- 做法：對 `_export/html` 全部頁面用正規表示式找 GTM/GA/AW/驗證 meta/FB app id/pixel/粉專/Messenger/地圖/API key/reCAPTCHA/Email/外部網域，
+  再用 PowerShell `Resolve-DnsName` 查 TXT（SPF）、MX、`mail.` 記錄。
+- 發現並已處理：`article:publisher` 指向廠商粉專 `facebook.com/iwango.taiwan`（改成 `data/site.json` 的 `facebookPage`）、Google+ `rel=author/publisher`（移除）、reCAPTCHA 金鑰、mailto 廠商信箱。
+- 需使用者處理的清單寫在 **HANDOVER.md**；之後發現新的廠商綁定也要補進去。
+
+### #25 Google Trends 在公司網路回 429
+- 共用對外 IP 被限流（同 #16）。不要重試，請使用者換網路查或提供截圖/CSV。
 
 ---
 
