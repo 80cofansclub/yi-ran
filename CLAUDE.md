@@ -62,6 +62,7 @@ npm run dev
 |---|---|---|
 | `SEO.md` | SEO 自主維運手冊：工具、每月流程、選題、寫文章 SOP、90 天計畫 | 使用者要做 SEO、寫文章、看流量時 |
 | `HANDOVER.md` | 從廠商接回的帳號與服務清單（Cloudflare、主機/郵件、GTM、GA、reCAPTCHA、粉專…） | 處理帳號、DNS、追蹤碼、解約相關事項時 |
+| `RUNBOOK.md` | 接手後的問題應變（症狀→原因→處理）、資訊收集與個資處理、危機訊息、主流功能缺口 | 網站出狀況、處理預約資料、評估新功能時 |
 | `README.md` | 給人看的快速說明 | — |
 
 ## 常用指令
@@ -252,6 +253,15 @@ docs/form-apps-script.gs           預約表單接收（Google 試算表 + Email
   2. 密鑰、密碼、token 只能放 .gitignore 內的位置（`/secrets/`、`*.secret`），或 Apps Script 指令碼屬性，絕不寫進程式碼與 data/。
   3. reCAPTCHA「網站金鑰」可以公開（放 `data/site.json`）；「密鑰」只能放 Apps Script 的 `RECAPTCHA_SECRET`。
   4. 改寫已推送的歷史（force push）一定要先取得使用者同意。
+
+### #27 搬家時漏掉網站圖示（favicon）與 og:image:type
+- **原因**：extract 只搬 `<head>` 裡的 stylesheet/style/script，`rel="icon"`、`apple-touch-icon`、`msapplication-TileImage` 被丟掉。
+- **解法**：`seoHead` 直接輸出與原站相同的圖示標籤；並補 `og:image:type`。
+- **檢查方法**：用 cheerio 比對原站與 dist 的 `<head>` 標籤種類（rel/name/property）。目前剩下的差異都是刻意移除的：WordPress 專用（api.w.org、EditURI、shortlink、generator、profile）、Google+ author/publisher、RSS alternate、Yoast 的 twitter:label/data（閱讀時間）。
+
+### #28 Google 表單接收程式升級版暫緩（git stash）
+- 使用者決定 Google 表單相關先不處理。升級版（管理欄位、未處理提醒、月統計、個資清除）已用 node vm 模擬 SpreadsheetApp/MailApp 等 API 測試通過，存在原電腦的 `git stash`，**不在 GitHub**。
+- 要繼續：`git stash list` → `git stash pop`。換電腦前要先 pop 並存成檔案，stash 不會跟著 clone。詳見 RUNBOOK.md §6.6。
 
 ---
 

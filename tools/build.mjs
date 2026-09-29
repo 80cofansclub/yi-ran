@@ -75,8 +75,16 @@ function seoHead(seo = {}, urlPath, fallbackTitle) {
     m.push(`<meta property="og:image" content="${esc(abs(seo.ogImage))}">`);
     if (seo.ogImageWidth) m.push(`<meta property="og:image:width" content="${esc(seo.ogImageWidth)}">`);
     if (seo.ogImageHeight) m.push(`<meta property="og:image:height" content="${esc(seo.ogImageHeight)}">`);
+    const ext = (seo.ogImage.match(/\.(jpe?g|png|gif|webp)$/i) || [])[1]?.toLowerCase();
+    if (ext) m.push(`<meta property="og:image:type" content="image/${ext === 'jpg' ? 'jpeg' : ext}">`);
   }
   m.push(`<meta name="twitter:card" content="summary_large_image">`);
+  // 網站圖示（與原站相同；搬家初版漏掉，見 CLAUDE.md #27）
+  const ICON = '/wp-content/uploads/2020/02/cropped-71795913_128403711878943_3620813982085939200_n-';
+  m.push(`<link rel="icon" href="${ICON}32x32.jpg" sizes="32x32">`);
+  m.push(`<link rel="icon" href="${ICON}192x192.jpg" sizes="192x192">`);
+  m.push(`<link rel="apple-touch-icon" href="${ICON}180x180.jpg">`);
+  m.push(`<meta name="msapplication-TileImage" content="${site.siteUrl}${ICON}270x270.jpg">`);
   if (seo.schema) m.push(`<script type="application/ld+json" class="yoast-schema-graph">${JSON.stringify(absDeep(seo.schema)).replace(/</g, '\\u003c')}</script>`);
   return m.join('\n');
 }
