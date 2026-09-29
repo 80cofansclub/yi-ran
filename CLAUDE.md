@@ -212,6 +212,24 @@ docs/form-apps-script.gs           預約表單接收（Google 試算表 + Email
 - 使用者之後會在工具不齊全的電腦上開發。新增 `tools/doctor.mjs`（`npm run doctor`）只檢查、不安裝，列出缺少項目與建議指令；
   依「開始工作前：環境檢查」的規則，**安裝前一定先問使用者**。
 
+### #22 綁定自訂網域後必須重新部署
+- `BASE_PATH` 是在**建置當下**由 configure-pages 決定的。在 GitHub 設好 Custom domain 之後，線上仍是舊的子路徑版本（帶 `/yi-ran` 前綴、noindex），
+  **一定要再觸發一次部署**（Actions → Deploy to GitHub Pages → Run workflow，或推空 commit）。
+- 部署後確認：`curl -s https://yiranmind.com/ | grep -o '<meta name="robots"[^>]*>'` 不能是 noindex。
+- Cloudflare 上指向 GitHub Pages 的記錄保持 **DNS only（灰色雲）**：開 Proxy 可能讓 GitHub 每 90 天續發 HTTPS 憑證失敗。
+
+---
+
+## 網域接到 GitHub Pages 的步驟
+
+1. 網域移到使用者自己的 Cloudflare 帳號前，先請廠商 **Export DNS 記錄**（BIND 檔）備份；移轉後確認記錄還在、續約付款人正確。
+2. GitHub 帳號 Settings → Pages → Add a domain → 在 Cloudflare 加 TXT `_github-pages-challenge-80cofansclub` → Verify。
+3. 測試：Cloudflare 加 CNAME `new` → `80cofansclub.github.io`（DNS only）→ repo Settings → Pages → Custom domain 填 `new.yiranmind.com` → **重新部署** → 實測。
+4. 正式：@ 的 A 記錄改成 185.199.108.153／109／110／111，AAAA 改成 2606:50c0:8000::153／8001／8002／8003，
+   www 設 CNAME → `80cofansclub.github.io`（全部 DNS only）；Custom domain 改 `yiranmind.com` → **重新部署** → 憑證發好後勾 Enforce HTTPS。
+5. MX／SPF 等郵件記錄不要動。
+6. Search Console 重新提交 `sitemap_index.xml`；舊主機保留 2 週再解約。
+
 ---
 
 ## 上線前待辦（2026-09-29 狀態）
