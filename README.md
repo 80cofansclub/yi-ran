@@ -7,7 +7,7 @@
 
 ## 本機預覽
 
-需要 [Node.js](https://nodejs.org/) 20 以上。
+需要 [Node.js](https://nodejs.org/) 20 以上與 Git。新電腦請先執行 `npm run doctor` 檢查環境（細節見 CLAUDE.md）。
 
 ```bash
 npm install          # 第一次才需要

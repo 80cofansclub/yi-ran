@@ -12,6 +12,50 @@
 - GitHub：`80cofansclub/yi-ran`（Public），推到 `main` 由 GitHub Actions 部署到 GitHub Pages。
 - 回覆使用者一律用**繁體中文**。
 
+## 開始工作前：環境檢查（新電腦必做）
+
+這個專案可能在工具不齊全的電腦上打開。**每次開新 session、或在新電腦第一次開啟時，先檢查環境再動手。**
+
+### 規則
+
+1. 先跑 `node --version` 與 `git --version`；兩者都有，再跑 `npm run doctor`（`tools/doctor.mjs`）看完整結果。
+2. 缺少任何工具或套件時，**不要自行安裝**。先用 AskUserQuestion 詢問使用者，選項至少包含：
+   - 「幫我安裝」：附上會執行的指令、用途、大約大小，以及是否需要系統管理員權限
+   - 「我自己裝」：給使用者可以複製的指令或下載網址
+   - 「先跳過」：說明跳過後哪些功能不能用
+3. 使用者同意後才安裝，一次裝一項，裝完重跑 `npm run doctor` 確認。
+4. 需要系統管理員權限、會改系統設定或 PATH 的安裝（例如 winget 安裝 Git/Node），要在詢問時特別說明；
+   安裝後通常要**重開終端機/Claude**才會生效，要提醒使用者。
+5. 公司電腦可能禁止安裝軟體或擋網路（見問題紀錄 #16），安裝失敗時不要反覆重試，改問使用者要不要用其他方式。
+
+### 需要的環境
+
+| 項目 | 必要性 | 用途 | 檢查 | Windows 安裝 | macOS 安裝 |
+|---|---|---|---|---|---|
+| Node.js 20 以上（建議 22 LTS） | 必要 | 建置、本機預覽、所有工具 | `node --version` | `winget install OpenJS.NodeJS.LTS` | `brew install node@22` |
+| npm 套件 | 必要 | `marked`（建置）、`cheerio`（搬家/比對工具） | `npm run doctor` | `npm install` | `npm install` |
+| Git | 必要 | 版控、推送部署 | `git --version` | `winget install Git.Git`（含 Git Bash 與 Credential Manager） | `brew install git` |
+| Git Credential Manager | 推送時需要 | 以 HTTPS 登入 GitHub | `git config --get credential.helper` | Git for Windows 已內含 | `brew install --cask git-credential-manager` |
+| 此 repo 的 git 身分 | 推送前必設 | Public repo 不可露出個人/公司信箱 | `git config user.email` | 見下方 | 見下方 |
+| `_export/` 原站備份 | 選用 | `npm run check`、搬家工具 | `npm run doctor` | 從舊電腦複製 | 同左 |
+| `docs/report.html` | 選用 | 分析報告（只留本機） | — | 從舊電腦複製 | 同左 |
+
+不需要：PHP、MySQL、WordPress、Python、GitHub CLI（`gh`）。
+
+### 新電腦第一次設定（使用者同意後依序執行）
+
+```bash
+git clone https://github.com/80cofansclub/yi-ran.git yiranmind-site
+cd yiranmind-site
+git config user.name "80cofansclub"
+git config user.email "27292529+80cofansclub@users.noreply.github.com"
+npm install
+npm run doctor
+npm run dev
+```
+
+> repo 層級的 `git config` **不會**跟著 clone 過來，每台新電腦都要重設（問題紀錄 #20）。
+
 ## 常用指令
 
 ```bash
@@ -19,6 +63,7 @@ npm install                 # 第一次
 npm run dev                 # 建置 + 本機預覽 http://localhost:8080/
 npm run build               # 只建置到 dist/
 npm run check               # 比對 sitemap / SEO 標籤與原站（需要 _export/，見下方）
+npm run doctor              # 環境檢查（只檢查不安裝）
 node tools/new-post.mjs 諮商部落 <英文代稱> "<標題>"   # 新增文章草稿（Markdown）
 ```
 
@@ -158,6 +203,14 @@ docs/form-apps-script.gs           預約表單接收（Google 試算表 + Email
 
 ### #19 Windows 換行
 - 全域 `core.autocrlf=true`，commit 時會出現大量 “LF will be replaced by CRLF” 警告，屬正常，不影響 CI（Linux 取出為 LF）。
+
+### #20 新電腦 clone 後 git 身分會跑掉
+- repo 層級的 `git config user.email` 存在 `.git/config`，不會被 clone；新電腦會沿用全域設定（可能是公司信箱），推到 Public repo 會公開。
+- **解法**：`npm run doctor` 會檢查並提示；新電腦第一次設定時照「新電腦第一次設定」重設。
+
+### #21 新電腦可能缺工具
+- 使用者之後會在工具不齊全的電腦上開發。新增 `tools/doctor.mjs`（`npm run doctor`）只檢查、不安裝，列出缺少項目與建議指令；
+  依「開始工作前：環境檢查」的規則，**安裝前一定先問使用者**。
 
 ---
 
