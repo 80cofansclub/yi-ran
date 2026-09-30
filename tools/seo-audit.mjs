@@ -96,7 +96,7 @@ const html = `<!DOCTYPE html>
 <title>SEO 健檢 ${month}</title>
 <style>
 :root{--bg:#f7f6f2;--card:#fff;--ink:#1f2328;--muted:#5d646d;--line:#e3e1da;--hi:#a4302a;--hi-bg:#fbe7e5;--mid:#9a5b00;--mid-bg:#fdf1dc;--low:#2f7d78;--low-bg:#e4f1ef}
-@media (prefers-color-scheme:dark){:root{--bg:#16181b;--card:#1e2125;--ink:#e8e6e1;--muted:#a2a8b0;--line:#33373d;--hi:#ec8a83;--hi-bg:#3b2220;--mid:#e6b161;--mid-bg:#3a2f1c;--low:#6cc2bb;--low-bg:#1d3432}}
+:root{color-scheme:light}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.7 "Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif}
 .wrap{max-width:1100px;margin:0 auto;padding:28px 16px 60px}
 h1{font-size:26px;margin:0 0 4px}h2{font-size:19px;margin:28px 0 10px}

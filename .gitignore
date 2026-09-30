@@ -2,17 +2,12 @@
 /dist/
 # 搬家時從舊站抓下來的原始備份（約數十 MB），留在本機即可，不進版控
 _export/
-# 內部分析報告只留在本機
-docs/report.html
 # 本機預覽設定
 .claude/
-# 每月 SEO 健檢與規劃報告（只留本機）
-docs/seo-*.html
 # 金鑰、密碼等機密檔案（絕不進 Public repo）
-/docs/recaptcha.txt
 /secrets/
 *.secret
 *.key.txt
-# 本機報告與文件（含費用、分析，不進 Public repo）
-/docs/*.html
-/docs/*.docx
+# docs 底下全部只留本機（報告、費用、分析、金鑰），唯一例外是表單接收程式
+/docs/*
+!/docs/form-apps-script.gs
