@@ -26,3 +26,45 @@ img.phone, img.messenger, #scroll-top { z-index: 9000; }
 .site-hours { display: inline-grid; grid-template-columns: auto auto; column-gap: .5em; vertical-align: top; }
 .site-hours .site-hours-row { display: contents; }
 .site-hours-day, .site-hours-time { white-space: nowrap; }
+
+/* 心理師個人頁（/counseling-team/psychologist/<姓名>/）：原站沒有，靜態站新增。
+   顏色沿用原站：標題藍 #52A2B6、名字金 #C4A010（--e-global-color-304df45）。 */
+.site-profile-cta { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 16px 32px; margin: 0 auto 6%; padding: 0 16px; }
+.site-profile-btn { display: inline-block; padding: 12px 36px; border-radius: 30px; background: #52A2B6; color: #fff !important; font-size: 17px; letter-spacing: 1px; }
+.site-profile-btn:hover { background: #C4A010; }
+.site-profile-back { color: #52A2B6; font-size: 15px; }
+.site-profile-back:hover { color: #C4A010; }
+
+/* 心理師總覽頁（/counseling-team/psychologist/）：原站是兩欄完整條列，改用首頁「台中心理師團隊」同一組卡片
+   （Elementor call-to-action，樣式來自 post-14.css，外層加 .elementor-14），整張卡片可點進個人頁。這裡只有上下說明文字的樣式。 */
+.site-team { margin: 3% auto 6%; }
+.site-team-lead { max-width: 760px; margin: 0 auto 28px; padding: 0 16px; text-align: center; color: #050E6A; font-size: 16px; }
+.site-team-help { text-align: center; margin: 32px 0 0; padding: 0 16px; font-size: 15px; color: #050E6A; }
+.site-team-help a { color: #52A2B6; margin: 0 2px; }
+.site-team-help a:hover { color: #C4A010; }
+/* 個人頁照片用 667×1000 原圖，顯示寬度上限 400px（比總覽卡片大） */
+.elementor-widget-image img.site-profile-photo { width: 100%; max-width: 400px; height: auto; border-radius: 8px; }
+/* 總覽頁卡片等高（首頁同一組卡片高度隨專長字數不同，原站既有；總覽頁拉齊） */
+.site-team .elementor-inner-column > .elementor-widget-wrap,
+.site-team .elementor-widget-call-to-action,
+.site-team .elementor-widget-call-to-action > .elementor-widget-container,
+.site-team .elementor-cta { height: 100%; }
+.site-team .elementor-cta__content { flex-grow: 1; align-content: flex-start; justify-content: flex-start; }
+.site-team .elementor-cta { flex-direction: column; flex-wrap: nowrap; }
+.site-team .elementor-cta__bg-wrapper { flex-grow: 0; }
+
+/* 心理師個人頁進場動畫：照片從左、簡介從右滑入，預約按鈕最後淡入。
+   只用 CSS（不依賴 Elementor 的 elementor-invisible，背景分頁也會正常顯示，見問題紀錄 #3）；
+   使用者系統設定「減少動態效果」時不播放。 */
+@keyframes site-slide-from-left { from { opacity: 0; transform: translateX(-60px); } to { opacity: 1; transform: none; } }
+@keyframes site-slide-from-right { from { opacity: 0; transform: translateX(60px); } to { opacity: 1; transform: none; } }
+@keyframes site-fade-up { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: none; } }
+.site-profile-main { overflow-x: clip; }
+.site-profile-main .elementor-column:first-child { animation: site-slide-from-left .9s cubic-bezier(.2, .7, .2, 1) both; }
+.site-profile-main .elementor-column:last-child { animation: site-slide-from-right .9s .2s cubic-bezier(.2, .7, .2, 1) both; }
+.site-profile-cta { animation: site-fade-up .6s .6s ease-out both; }
+@media (prefers-reduced-motion: reduce) {
+  .site-profile-main .elementor-column, .site-profile-cta { animation: none; }
+}
+/* 從總覽頁點進個人頁（#profile）時，姓名區塊停在固定頁首（80px）下方 */
+.site-profile-anchor { scroll-margin-top: 80px; }

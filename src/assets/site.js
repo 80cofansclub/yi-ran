@@ -106,6 +106,44 @@
     if (method) (window.dataLayer = window.dataLayer || []).push({ event: 'contact_click', contact_method: method, page_path: location.pathname });
   }, true);
 
+  // ---------- 1c. 從心理師個人頁點「預約」：?psychologist=<網址代稱> 預先填入諮商需求欄 ----------
+  // 只認得下面列出的代稱（避免別人用網址塞任意文字進表單）；心理師異動時要跟著改（見 CLAUDE.md 問題紀錄 #33）
+  var PSYCHOLOGISTS = {
+    'lin-zi-rong': '林孜嶸 所長/臨床心理師',
+    'wu-zheng-hang': '吳政航 臨床心理師',
+    'yang-ya-qing': '楊雅清 臨床心理師',
+    'zhang-jing-chun': '張景淳 諮商心理師'
+  };
+  var wanted = PSYCHOLOGISTS[new URLSearchParams(location.search).get('psychologist')];
+  if (wanted) {
+    Array.prototype.forEach.call(document.querySelectorAll('textarea[name="form_fields[message]"]'), function (ta) {
+      if (!ta.value) ta.value = '希望預約：' + wanted + '\n';
+    });
+  }
+
+  // ---------- 1d. 從總覽頁點進心理師個人頁（#profile）：直接停在姓名＋照片區塊 ----------
+  // 等圖片、字型載入完（版面不再位移）才捲。固定頁首是捲動後才出現、高度隨螢幕不同（電腦 80px、手機 120px），
+  // 所以先捲一次讓頁首固定，再量它的高度修正。用 instant：原站 html 設了 scroll-behavior:smooth，平滑捲動在背景分頁會停住。
+  if (location.hash === '#profile') {
+    var toProfile = function () {
+      var el = document.getElementById('profile');
+      if (!el) return;
+      var go = function (offset) { window.scrollTo({ top: el.getBoundingClientRect().top + window.pageYOffset - offset, behavior: 'instant' }); };
+      go(parseFloat(getComputedStyle(el).scrollMarginTop) || 0);
+      var fix = function () {
+        var h = 0;
+        Array.prototype.forEach.call(document.querySelectorAll('.elementor-sticky--active'), function (s) {
+          var b = s.getBoundingClientRect();
+          if (b.top <= 0 && b.bottom > h) h = b.bottom;
+        });
+        if (h && Math.abs(el.getBoundingClientRect().top - h) > 2) go(h);
+      };
+      setTimeout(fix, 100);
+      setTimeout(fix, 500); // 頁首固定有時較晚才生效（手機），再確認一次
+    };
+    if (document.readyState === 'complete') toProfile(); else window.addEventListener('load', toProfile);
+  }
+
   // ---------- 2. 站內搜尋（讀 /search-index.json）----------
   var box = document.getElementById('site-search-results');
   if (box) {

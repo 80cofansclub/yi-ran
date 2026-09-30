@@ -1698,10 +1698,10 @@
     "header": "page",
     "popup": false,
     "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-925 page-child parent-pageid-415 wp-custom-logo wp-embed-responsive wp-theme-oceanwp oceanwp-theme sidebar-mobile default-breakpoint content-full-width content-max-width page-header-disabled has-breadcrumbs elementor-default elementor-template-full-width elementor-kit-2354 elementor-page elementor-page-925",
-    "assets": "counseling-team",
+    "assets": "counseling-team--psychologist",
     "noindex": false,
-    "modified": "2025-08-06T16:28:13",
-    "modifiedGmt": "2025-08-06T08:28:13",
+    "modified": "2026-09-30T01:32:56",
+    "modifiedGmt": "2026-09-29T17:32:56",
     "sitemapImages": [
       "/wp-content/uploads/elementor/thumbs/1.%E6%9E%97%E5%AD%9C%E5%B6%B8%E6%89%80%E9%95%B7_%E8%87%A8%E5%BA%8A%E5%BF%83%E7%90%86%E5%B8%AB-scaled-e1583939876159-omf1za0y2hwduwplc71ej5f9zwg3x6tv378h09shds.jpg",
       "/wp-content/uploads/elementor/thumbs/-p82u8ofkhh124fshypl3fwo468s30lc3jpsdjn0ruo.jpg",
@@ -1718,7 +1718,7 @@
       "ogTitle": "心理師 - 怡然心理治療所",
       "ogDescription": "心理師 林孜嶸 所長/臨床心理師 現職： 怡然心理治療所臨床心理師/所長 專業認證： 臨床心理師執照（心理字第 […]",
       "ogImage": "/wp-content/uploads/elementor/thumbs/-p82u8ofkhh124fshypl3fwo468s30lc3jpsdjn0ruo.jpg",
-      "modifiedTime": "2025-08-06T08:28:13+00:00",
+      "modifiedTime": "2026-09-29T17:32:56+00:00",
       "schema": {
         "@context": "https://schema.org",
         "@graph": [
@@ -1738,7 +1738,7 @@
             },
             "thumbnailUrl": "/wp-content/uploads/elementor/thumbs/-p82u8ofkhh124fshypl3fwo468s30lc3jpsdjn0ruo.jpg",
             "datePublished": "2019-10-18T13:47:15+00:00",
-            "dateModified": "2025-08-06T08:28:13+00:00",
+            "dateModified": "2026-09-29T17:32:56+00:00",
             "breadcrumb": {
               "@id": "/counseling-team/psychologist/#breadcrumb"
             },
@@ -1832,6 +1832,689 @@
       }
     },
     "content": "content/pages/counseling-team--psychologist.html"
+  },
+  {
+    "id": "counseling-team--psychologist--lin-zi-rong",
+    "path": "/counseling-team/psychologist/lin-zi-rong/",
+    "title": "林孜嶸 所長/臨床心理師",
+    "header": "page",
+    "popup": false,
+    "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-925 page-child parent-pageid-415 wp-custom-logo wp-embed-responsive wp-theme-oceanwp oceanwp-theme sidebar-mobile default-breakpoint content-full-width content-max-width page-header-disabled has-breadcrumbs elementor-default elementor-template-full-width elementor-kit-2354 elementor-page elementor-page-925",
+    "assets": "counseling-team",
+    "noindex": false,
+    "modified": "2026-09-30T01:32:56",
+    "modifiedGmt": "2026-09-29T17:32:56",
+    "seo": {
+      "title": "林孜嶸 所長/臨床心理師 - 怡然心理治療所",
+      "canonical": "/counseling-team/psychologist/lin-zi-rong/",
+      "description": "林孜嶸，怡然心理治療所所長/臨床心理師，臨床心理師執照（心理字第000881號）。專長：成人心理治療（憂鬱、躁鬱、焦慮、強迫症）、人際議題、職場心理調適、親職教養諮詢、兒童青少年心智發展評估。台中心理諮商預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "profile",
+      "ogTitle": "林孜嶸 所長/臨床心理師 - 怡然心理治療所",
+      "ogDescription": "林孜嶸，怡然心理治療所所長/臨床心理師，臨床心理師執照（心理字第000881號）。專長：成人心理治療（憂鬱、躁鬱、焦慮、強迫症）、人際議題、職場心理調適、親職教養諮詢、兒童青少年心智發展評估。台中心理諮商預約：0905467481",
+      "ogImage": "/wp-content/uploads/2020/03/1.林孜嶸所長_臨床心理師-scaled-e1583939876159.jpg",
+      "modifiedTime": "2026-09-29T17:32:56+00:00",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "ProfilePage",
+            "@id": "/counseling-team/psychologist/lin-zi-rong/",
+            "url": "/counseling-team/psychologist/lin-zi-rong/",
+            "name": "林孜嶸 所長/臨床心理師 - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "mainEntity": {
+              "@id": "/counseling-team/psychologist/lin-zi-rong/#person"
+            },
+            "primaryImageOfPage": {
+              "@id": "/counseling-team/psychologist/lin-zi-rong/#primaryimage"
+            },
+            "image": {
+              "@id": "/counseling-team/psychologist/lin-zi-rong/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2020/03/1.林孜嶸所長_臨床心理師-scaled-e1583939876159.jpg",
+            "dateModified": "2026-09-29T17:32:56+00:00",
+            "breadcrumb": {
+              "@id": "/counseling-team/psychologist/lin-zi-rong/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Person",
+            "@id": "/counseling-team/psychologist/lin-zi-rong/#person",
+            "name": "林孜嶸",
+            "jobTitle": "所長/臨床心理師",
+            "image": {
+              "@id": "/counseling-team/psychologist/lin-zi-rong/#primaryimage"
+            },
+            "worksFor": {
+              "@id": "/#organization"
+            },
+            "knowsAbout": [
+              "成人心理治療（憂鬱",
+              "躁鬱",
+              "焦慮",
+              "強迫症）",
+              "人際議題",
+              "職場心理調適",
+              "親職教養諮詢",
+              "兒童青少年心智發展評估"
+            ],
+            "hasCredential": {
+              "@type": "EducationalOccupationalCredential",
+              "credentialCategory": "license",
+              "name": "臨床心理師執照（心理字第000881號）"
+            },
+            "alumniOf": [
+              {
+                "@type": "EducationalOrganization",
+                "name": "輔仁大學臨床心理學系碩士班"
+              }
+            ],
+            "url": "/counseling-team/psychologist/lin-zi-rong/"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/counseling-team/psychologist/lin-zi-rong/#primaryimage",
+            "url": "/wp-content/uploads/2020/03/1.林孜嶸所長_臨床心理師-scaled-e1583939876159.jpg",
+            "contentUrl": "/wp-content/uploads/2020/03/1.林孜嶸所長_臨床心理師-scaled-e1583939876159.jpg"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/counseling-team/psychologist/lin-zi-rong/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "諮商團隊",
+                "item": "/counseling-team/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "心理師",
+                "item": "/counseling-team/psychologist/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "林孜嶸"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      },
+      "ogImageWidth": "667",
+      "ogImageHeight": "1000"
+    },
+    "content": "content/pages/counseling-team--psychologist--lin-zi-rong.html"
+  },
+  {
+    "id": "counseling-team--psychologist--wu-zheng-hang",
+    "path": "/counseling-team/psychologist/wu-zheng-hang/",
+    "title": "吳政航 臨床心理師",
+    "header": "page",
+    "popup": false,
+    "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-925 page-child parent-pageid-415 wp-custom-logo wp-embed-responsive wp-theme-oceanwp oceanwp-theme sidebar-mobile default-breakpoint content-full-width content-max-width page-header-disabled has-breadcrumbs elementor-default elementor-template-full-width elementor-kit-2354 elementor-page elementor-page-925",
+    "assets": "counseling-team",
+    "noindex": false,
+    "modified": "2026-09-30T01:32:56",
+    "modifiedGmt": "2026-09-29T17:32:56",
+    "seo": {
+      "title": "吳政航 臨床心理師 - 怡然心理治療所",
+      "canonical": "/counseling-team/psychologist/wu-zheng-hang/",
+      "description": "吳政航，怡然心理治療所臨床心理師，臨床心理師（心理字第000737號）。專長：自我探索與自我成長、人際困擾、感情失落、睡眠困擾、家庭及職場壓力調適、身心壓力調適、情緒困擾與調適、青少年情緒及壓力管理。台中心理諮商預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "profile",
+      "ogTitle": "吳政航 臨床心理師 - 怡然心理治療所",
+      "ogDescription": "吳政航，怡然心理治療所臨床心理師，臨床心理師（心理字第000737號）。專長：自我探索與自我成長、人際困擾、感情失落、睡眠困擾、家庭及職場壓力調適、身心壓力調適、情緒困擾與調適、青少年情緒及壓力管理。台中心理諮商預約：0905467481",
+      "ogImage": "/wp-content/uploads/2021/06/吳政航臨床心理師.jpg",
+      "modifiedTime": "2026-09-29T17:32:56+00:00",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "ProfilePage",
+            "@id": "/counseling-team/psychologist/wu-zheng-hang/",
+            "url": "/counseling-team/psychologist/wu-zheng-hang/",
+            "name": "吳政航 臨床心理師 - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "mainEntity": {
+              "@id": "/counseling-team/psychologist/wu-zheng-hang/#person"
+            },
+            "primaryImageOfPage": {
+              "@id": "/counseling-team/psychologist/wu-zheng-hang/#primaryimage"
+            },
+            "image": {
+              "@id": "/counseling-team/psychologist/wu-zheng-hang/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2021/06/吳政航臨床心理師.jpg",
+            "dateModified": "2026-09-29T17:32:56+00:00",
+            "breadcrumb": {
+              "@id": "/counseling-team/psychologist/wu-zheng-hang/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Person",
+            "@id": "/counseling-team/psychologist/wu-zheng-hang/#person",
+            "name": "吳政航",
+            "jobTitle": "臨床心理師",
+            "image": {
+              "@id": "/counseling-team/psychologist/wu-zheng-hang/#primaryimage"
+            },
+            "worksFor": {
+              "@id": "/#organization"
+            },
+            "knowsAbout": [
+              "自我探索與自我成長",
+              "人際困擾",
+              "感情失落",
+              "睡眠困擾",
+              "家庭及職場壓力調適",
+              "身心壓力調適",
+              "情緒困擾與調適",
+              "青少年情緒及壓力管理"
+            ],
+            "hasCredential": {
+              "@type": "EducationalOccupationalCredential",
+              "credentialCategory": "license",
+              "name": "臨床心理師（心理字第000737號）"
+            },
+            "alumniOf": [
+              {
+                "@type": "EducationalOrganization",
+                "name": "成功大學行為醫學研究所碩士"
+              }
+            ],
+            "url": "/counseling-team/psychologist/wu-zheng-hang/"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/counseling-team/psychologist/wu-zheng-hang/#primaryimage",
+            "url": "/wp-content/uploads/2021/06/吳政航臨床心理師.jpg",
+            "contentUrl": "/wp-content/uploads/2021/06/吳政航臨床心理師.jpg"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/counseling-team/psychologist/wu-zheng-hang/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "諮商團隊",
+                "item": "/counseling-team/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "心理師",
+                "item": "/counseling-team/psychologist/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "吳政航"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      },
+      "ogImageWidth": "667",
+      "ogImageHeight": "1000"
+    },
+    "content": "content/pages/counseling-team--psychologist--wu-zheng-hang.html"
+  },
+  {
+    "id": "counseling-team--psychologist--yang-ya-qing",
+    "path": "/counseling-team/psychologist/yang-ya-qing/",
+    "title": "楊雅清 臨床心理師",
+    "header": "page",
+    "popup": false,
+    "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-925 page-child parent-pageid-415 wp-custom-logo wp-embed-responsive wp-theme-oceanwp oceanwp-theme sidebar-mobile default-breakpoint content-full-width content-max-width page-header-disabled has-breadcrumbs elementor-default elementor-template-full-width elementor-kit-2354 elementor-page elementor-page-925",
+    "assets": "counseling-team",
+    "noindex": false,
+    "modified": "2026-09-30T01:32:56",
+    "modifiedGmt": "2026-09-29T17:32:56",
+    "seo": {
+      "title": "楊雅清 臨床心理師 - 怡然心理治療所",
+      "canonical": "/counseling-team/psychologist/yang-ya-qing/",
+      "description": "楊雅清，怡然心理治療所臨床心理師，臨床心理師執照（心理字第000703號）。專長：自我探索、性別議題、情緒與壓力調適、孕產婦心理健康、親職諮詢、青少年/成人心理健康、正念認知治療。台中心理諮商預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "profile",
+      "ogTitle": "楊雅清 臨床心理師 - 怡然心理治療所",
+      "ogDescription": "楊雅清，怡然心理治療所臨床心理師，臨床心理師執照（心理字第000703號）。專長：自我探索、性別議題、情緒與壓力調適、孕產婦心理健康、親職諮詢、青少年/成人心理健康、正念認知治療。台中心理諮商預約：0905467481",
+      "ogImage": "/wp-content/uploads/2020/03/3.楊雅清臨床心理師-1-scaled-e1583572348300.jpg",
+      "modifiedTime": "2026-09-29T17:32:56+00:00",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "ProfilePage",
+            "@id": "/counseling-team/psychologist/yang-ya-qing/",
+            "url": "/counseling-team/psychologist/yang-ya-qing/",
+            "name": "楊雅清 臨床心理師 - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "mainEntity": {
+              "@id": "/counseling-team/psychologist/yang-ya-qing/#person"
+            },
+            "primaryImageOfPage": {
+              "@id": "/counseling-team/psychologist/yang-ya-qing/#primaryimage"
+            },
+            "image": {
+              "@id": "/counseling-team/psychologist/yang-ya-qing/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2020/03/3.楊雅清臨床心理師-1-scaled-e1583572348300.jpg",
+            "dateModified": "2026-09-29T17:32:56+00:00",
+            "breadcrumb": {
+              "@id": "/counseling-team/psychologist/yang-ya-qing/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Person",
+            "@id": "/counseling-team/psychologist/yang-ya-qing/#person",
+            "name": "楊雅清",
+            "jobTitle": "臨床心理師",
+            "image": {
+              "@id": "/counseling-team/psychologist/yang-ya-qing/#primaryimage"
+            },
+            "worksFor": {
+              "@id": "/#organization"
+            },
+            "knowsAbout": [
+              "自我探索",
+              "性別議題",
+              "情緒與壓力調適",
+              "孕產婦心理健康",
+              "親職諮詢",
+              "青少年/成人心理健康",
+              "正念認知治療"
+            ],
+            "hasCredential": {
+              "@type": "EducationalOccupationalCredential",
+              "credentialCategory": "license",
+              "name": "臨床心理師執照（心理字第000703號）"
+            },
+            "alumniOf": [
+              {
+                "@type": "EducationalOrganization",
+                "name": "輔仁大學臨床心理學系碩士班"
+              }
+            ],
+            "url": "/counseling-team/psychologist/yang-ya-qing/"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/counseling-team/psychologist/yang-ya-qing/#primaryimage",
+            "url": "/wp-content/uploads/2020/03/3.楊雅清臨床心理師-1-scaled-e1583572348300.jpg",
+            "contentUrl": "/wp-content/uploads/2020/03/3.楊雅清臨床心理師-1-scaled-e1583572348300.jpg"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/counseling-team/psychologist/yang-ya-qing/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "諮商團隊",
+                "item": "/counseling-team/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "心理師",
+                "item": "/counseling-team/psychologist/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "楊雅清"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      },
+      "ogImageWidth": "667",
+      "ogImageHeight": "1000"
+    },
+    "content": "content/pages/counseling-team--psychologist--yang-ya-qing.html"
+  },
+  {
+    "id": "counseling-team--psychologist--zhang-jing-chun",
+    "path": "/counseling-team/psychologist/zhang-jing-chun/",
+    "title": "張景淳 諮商心理師",
+    "header": "page",
+    "popup": false,
+    "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-925 page-child parent-pageid-415 wp-custom-logo wp-embed-responsive wp-theme-oceanwp oceanwp-theme sidebar-mobile default-breakpoint content-full-width content-max-width page-header-disabled has-breadcrumbs elementor-default elementor-template-full-width elementor-kit-2354 elementor-page elementor-page-925",
+    "assets": "counseling-team",
+    "noindex": false,
+    "modified": "2026-09-30T01:32:56",
+    "modifiedGmt": "2026-09-29T17:32:56",
+    "seo": {
+      "title": "張景淳 諮商心理師 - 怡然心理治療所",
+      "canonical": "/counseling-team/psychologist/zhang-jing-chun/",
+      "description": "張景淳，怡然心理治療所諮商心理師，諮商心理師執照（諮心字第004026號）。專長：成人性別議題、人際議題、自我探索、生涯/職涯諮商、情緒探索、時間規劃、成癮處遇、就業準備。台中心理諮商預約：0905467481",
+      "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+      "ogType": "profile",
+      "ogTitle": "張景淳 諮商心理師 - 怡然心理治療所",
+      "ogDescription": "張景淳，怡然心理治療所諮商心理師，諮商心理師執照（諮心字第004026號）。專長：成人性別議題、人際議題、自我探索、生涯/職涯諮商、情緒探索、時間規劃、成癮處遇、就業準備。台中心理諮商預約：0905467481",
+      "ogImage": "/wp-content/uploads/2020/03/2.張景淳諮商心理師-scaled-e1583235320693.jpg",
+      "modifiedTime": "2026-09-29T17:32:56+00:00",
+      "schema": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "ProfilePage",
+            "@id": "/counseling-team/psychologist/zhang-jing-chun/",
+            "url": "/counseling-team/psychologist/zhang-jing-chun/",
+            "name": "張景淳 諮商心理師 - 怡然心理治療所",
+            "isPartOf": {
+              "@id": "/#website"
+            },
+            "mainEntity": {
+              "@id": "/counseling-team/psychologist/zhang-jing-chun/#person"
+            },
+            "primaryImageOfPage": {
+              "@id": "/counseling-team/psychologist/zhang-jing-chun/#primaryimage"
+            },
+            "image": {
+              "@id": "/counseling-team/psychologist/zhang-jing-chun/#primaryimage"
+            },
+            "thumbnailUrl": "/wp-content/uploads/2020/03/2.張景淳諮商心理師-scaled-e1583235320693.jpg",
+            "dateModified": "2026-09-29T17:32:56+00:00",
+            "breadcrumb": {
+              "@id": "/counseling-team/psychologist/zhang-jing-chun/#breadcrumb"
+            },
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Person",
+            "@id": "/counseling-team/psychologist/zhang-jing-chun/#person",
+            "name": "張景淳",
+            "jobTitle": "諮商心理師",
+            "image": {
+              "@id": "/counseling-team/psychologist/zhang-jing-chun/#primaryimage"
+            },
+            "worksFor": {
+              "@id": "/#organization"
+            },
+            "knowsAbout": [
+              "成人性別議題",
+              "人際議題",
+              "自我探索",
+              "生涯/職涯諮商",
+              "情緒探索",
+              "時間規劃",
+              "成癮處遇",
+              "就業準備"
+            ],
+            "hasCredential": {
+              "@type": "EducationalOccupationalCredential",
+              "credentialCategory": "license",
+              "name": "諮商心理師執照（諮心字第004026號）"
+            },
+            "alumniOf": [
+              {
+                "@type": "EducationalOrganization",
+                "name": "國立清華大學教育心理與諮商學系碩士"
+              }
+            ],
+            "url": "/counseling-team/psychologist/zhang-jing-chun/"
+          },
+          {
+            "@type": "ImageObject",
+            "inLanguage": "zh-TW",
+            "@id": "/counseling-team/psychologist/zhang-jing-chun/#primaryimage",
+            "url": "/wp-content/uploads/2020/03/2.張景淳諮商心理師-scaled-e1583235320693.jpg",
+            "contentUrl": "/wp-content/uploads/2020/03/2.張景淳諮商心理師-scaled-e1583235320693.jpg"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "/counseling-team/psychologist/zhang-jing-chun/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "怡然心理治療所",
+                "item": "/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "諮商團隊",
+                "item": "/counseling-team/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "心理師",
+                "item": "/counseling-team/psychologist/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "name": "張景淳"
+              }
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "/#website",
+            "url": "/",
+            "name": "怡然心理治療所",
+            "description": "台中心理諮商、心理治療、諮商課程",
+            "publisher": {
+              "@id": "/#organization"
+            },
+            "alternateName": "怡然心理治療所",
+            "potentialAction": [
+              {
+                "@type": "SearchAction",
+                "target": {
+                  "@type": "EntryPoint",
+                  "urlTemplate": "/?s={search_term_string}"
+                },
+                "query-input": {
+                  "@type": "PropertyValueSpecification",
+                  "valueRequired": true,
+                  "valueName": "search_term_string"
+                }
+              }
+            ],
+            "inLanguage": "zh-TW"
+          },
+          {
+            "@type": "Organization",
+            "@id": "/#organization",
+            "name": "怡然心理治療所",
+            "alternateName": "怡然心理治療所",
+            "url": "/",
+            "logo": {
+              "@type": "ImageObject",
+              "inLanguage": "zh-TW",
+              "@id": "/#/schema/logo/image/",
+              "url": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "contentUrl": "/wp-content/uploads/2020/04/217FDDFB-DB88-4840-84C6-3F64328EB1D4.png",
+              "width": 1252,
+              "height": 1252,
+              "caption": "怡然心理治療所"
+            },
+            "image": {
+              "@id": "/#/schema/logo/image/"
+            }
+          }
+        ]
+      },
+      "ogImageWidth": "667",
+      "ogImageHeight": "1000"
+    },
+    "content": "content/pages/counseling-team--psychologist--zhang-jing-chun.html"
   },
   {
     "id": "counseling",

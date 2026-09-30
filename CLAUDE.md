@@ -106,7 +106,7 @@ docs/form-apps-script.gs           預約表單接收（Google 試算表 + Email
 | 路徑 | 內容 | 沒有的話 |
 |---|---|---|
 | `_export/`（約 18 MB） | 搬家時抓下來的原站 HTML、REST 資料、原站 sitemap | `npm run check`、`2-extract.mjs` 不能跑。原站還在時可用 `node tools/1-fetch.mjs` 重抓；原站關掉後就只剩這份備份，**務必保留** |
-| `docs/*.html` | 給人看的報告：`index.html`（總覽）、`takeover-report.html`（接手總報告，非技術讀者）、`self-maintenance-value.html`（效益評估）、`report.html`（技術分析）、`seo-audit.html`（每月健檢） | 使用者規定內部分析不外流（不發 artifact、不進 Public repo）。新增或更新重大分析時，**也要更新給人看的 HTML 報告**，並加進 `docs/index.html` |
+| `docs/*`（`form-apps-script.gs` 除外） | `.gitignore` 排除整個 docs，放進去的任何檔案都不會推上去。給人看的報告：`index.html`（總覽）、`takeover-report.html`（接手總報告，非技術讀者）、`self-maintenance-value.html`（效益評估）、`report.html`（技術分析）、`seo-audit.html`（每月健檢） | 使用者規定內部分析不外流（不發 artifact、不進 Public repo）。新增或更新重大分析時，**也要更新給人看的 HTML 報告**，並加進 `docs/index.html`。報告**固定淺色背景**（`:root{color-scheme:light}`，不加 `prefers-color-scheme: dark`） |
 
 ## 規則與慣例
 
@@ -123,6 +123,7 @@ docs/form-apps-script.gs           預約表單接收（Google 試算表 + Email
   5. 特色圖片／列表縮圖不加 `loading="lazy"` 的情況比原站多（見問題紀錄 #13）
   6. 右下角浮動按鈕（電話、Messenger、回到頂端）`z-index: 9000`，永遠在最上層（見問題紀錄 #29）
   7. 營業時間改用 grid 排版；頁尾的「週六」併入營業時間項目，拿掉原本撐位置用的箭頭圖示（見問題紀錄 #30）
+  8. 心理師個人頁（原站沒有）：`/counseling-team/psychologist/<拼音>/` 共 4 頁；總覽頁從兩欄完整條列改成首頁同款的 4 張卡片、可點進個人頁（見問題紀錄 #33）
 - 這個 repo 的 git 身分：`80cofansclub <27292529+80cofansclub@users.noreply.github.com>`（repo 設定，不要用公司信箱）。
 - commit 訊息用繁體中文。
 
@@ -292,6 +293,28 @@ docs/form-apps-script.gs           預約表單接收（Google 試算表 + Email
 - **可靠做法**：`resize_window` 設定寬度 → 直接開原站頁面量測存到 `window.name` → 開本機同頁比對（排除刻意修改的頁尾）。
 - 2026-09-29 平板 768／1024 比對結果：首頁、聯絡我們、怡然簡介、心理師、諮商部落、文章頁皆 0 差異（聯絡我們 768px 的營業時間高度差為 #30 的刻意修正）。
 
+### #33 心理師拆成個人頁（2026-09-30，新增功能）
+- **目的**：讓「姓名＋心理師」的搜尋找得到、當文章作者頁、方便來訪者挑選心理師。總覽頁 `/counseling-team/psychologist/` 保留（舊網址不變）。
+- **網址**：`lin-zi-rong`、`wu-zheng-hang`、`yang-ya-qing`、`zhang-jing-chun`（漢語拼音）。
+- **檔案**：`content/pages/counseling-team--psychologist--<拼音>.html`＋`data/pages.json` 各一筆（排在總覽頁後面）。
+  版面沿用總覽頁的 Elementor 元件與 data-id（套用同一份 `post-925.css`）：左欄照片、右欄「專業資歷」條列；下方「預約」按鈕與「看其他心理師」連結（樣式在 `site.css` 的 `.site-profile-*`）。
+- **SEO**：`ProfilePage`＋`Person`（jobTitle、執照、專長 knowsAbout、學歷、worksFor 診所）、4 層麵包屑、`og:type=profile`；sitemap 自動加入（圖片自動抽取）。
+- **總覽頁改用首頁「台中心理師團隊」同一組卡片**（使用者覺得兩欄完整條列太亂，並指定參照首頁）：
+  從 `home.html` 複製 inner section `c38877e`（Elementor call-to-action），外層 `<div class="elementor elementor-14 site-team">` 讓 `post-14.css` 套用；
+  `<div class="elementor-cta">` 改成 `<a class="elementor-cta" href="個人頁">`（Elementor「整個方塊連結」的原生寫法），卡片內的「憂鬱」連結拿掉（`<a>` 不能包 `<a>`）。
+  該頁改用新的載入清單 `counseling-team--psychologist`（`asset-profiles.json`＝counseling-team＋`widget-call-to-action-css`、`e-transitions-css`、`elementor-post-14-css`）。
+  `site.css` 讓 4 張卡片等高、名字對齊（首頁原本高度隨專長字數不同，首頁未改）。首頁卡片專長有變動時，總覽頁也要跟著改。
+- **個人頁照片**用 667×1000 原圖（與首頁卡片同一組），顯示寬度上限 400px，`og:image` 也用原圖。
+- **預約按鈕帶入心理師**：個人頁「預約○○心理師」連到 `/counseling-reservation/reservation/?psychologist=<拼音>`，
+  `site.js` 的 `PSYCHOLOGISTS` 對照表把「希望預約：姓名 職稱」預先填進「請簡述您想談的議題…」欄（欄位空白時才填）。只認對照表內的代稱，**新增或異動心理師時要改這個表**。
+- **從總覽頁點進個人頁直接停在姓名區塊**：卡片連到 `…/<拼音>/#profile`，`id="profile"` 在姓名標題那一段（03a14e5）。
+  不能只靠瀏覽器原生錨點：原站 `html{scroll-behavior:smooth}`，且 Elementor 固定頁首是捲動後才出現、高度電腦 80px／手機與平板 120px。
+  `site.js` 在 load 後用 instant 捲動，再量固定頁首高度修正兩次（100ms、500ms）。網址片段不影響 SEO（Google 忽略 `#`，canonical 不變）。
+- **個人頁進場動畫**：照片從左、簡介從右滑入，預約按鈕最後淡入（純 CSS，`.site-profile-main`；系統開「減少動態效果」時不播）。
+- 原站江信男那段是全裝置隱藏，保留在總覽頁原位（仍隱藏），沒有做個人頁。
+- **內容待補**（見「上線前待辦」）：各頁檔案裡有 `<!-- 待補 ... -->` 註解標出要加的位置。補完內容記得更新該頁 `modified`／`modifiedGmt`。
+- 當初是用一次性腳本從總覽頁拆出來的；之後**直接改各頁的內容檔**，不要重拆（會蓋掉補上的內容）。心理師資料有變動時，總覽頁與個人頁**兩邊都要改**。
+
 ---
 
 ## 網域接到 GitHub Pages 的步驟
@@ -314,4 +337,13 @@ docs/form-apps-script.gs           預約表單接收（Google 試算表 + Email
 - [ ] （選用）申請 reCAPTCHA v3，網站金鑰填 `form.recaptchaSiteKey`、密鑰填 Apps Script 屬性
 - [ ] 先用 `new.yiranmind.com` 測試，再把 DNS 切到 GitHub Pages（A 185.199.108-111.153、www CNAME `80cofansclub.github.io`，DNS only）
 - [ ] 切換後 Search Console 重新提交 `sitemap_index.xml`；舊主機保留 2 週再解約
+
+## 內容待補
+
+- [ ] 心理師個人頁補內容（4 位：林孜嶸、吳政航、楊雅清、張景淳；見問題紀錄 #33）。目前只有原本的條列資料，每人需要：
+  - [ ] 自我介紹／治療理念（第一人稱，200～400 字）
+  - [ ] 擅長處理的狀況（用來訪者看得懂的話，例如「最近總是睡不好、提不起勁」）
+  - [ ] 可預約時段
+  - [ ] （選用）更高解析度的照片：目前最大是 667×1000
+  - [ ] （之後）文章作者欄位連到個人頁、個人頁列出該心理師寫的文章
 
